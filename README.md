@@ -45,7 +45,7 @@ the defaults change.
 TRM's favorite party trick: **plan-aware routing.** You declare a plan card (which subscription
 tier you run on each vendor, and how full the tanks are) and Meowth 😼 adjusts the whole crew's
 spending posture: WAR CHEST, CRUISE, SHOESTRING, or LIMP HOME. Same mission, different budget,
-different routing — top tiers get free-swinging frontier work and parallel fan-outs; two $20
+different routing: top tiers get free-swinging frontier work and parallel fan-outs; two $20
 subscriptions get a tight dispatch gate, builds routed to whichever window is freshest, and the
 frontier model showing up only where judgment actually lives. Downgrade your plans and the cat
 downgrades his appetite, not your quality bar. Details in `MEOWTH-MANUAL.md`.
