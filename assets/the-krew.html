@@ -1,0 +1,63 @@
+<meta charset="utf-8">
+<title>Team Rocket Method: the krew</title>
+<style>
+  body { background:#14151f; color:#e8e6f0; font-family:"Segoe UI",system-ui,sans-serif;
+         display:flex; justify-content:center; padding:28px 16px; }
+  .board { width:540px; }
+  h1 { font-size:19px; margin:0 0 2px; letter-spacing:.4px; }
+  .sub { color:#9a96ad; font-size:12px; margin:0 0 20px; }
+  .seat { border-radius:12px; padding:12px 16px; margin:0 auto; position:relative; }
+  .boss  { background:#2a2438; border:1.5px solid #b39ddb; width:330px; }
+  .lead  { background:#33291d; border:1.5px solid #e0b34c; width:390px; }
+  .row { display:flex; gap:14px; justify-content:center; }
+  .worker { flex:1; max-width:250px; }
+  .jessie { background:#33221a; border:1.5px solid #ff8a50; }
+  .james  { background:#1a2533; border:1.5px solid #64a8ff; }
+  .name { font-weight:700; font-size:15px; }
+  .role { font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#b7b3c9; margin-top:1px; }
+  .does { font-size:12px; color:#cfccdd; margin-top:6px; line-height:1.45; }
+  .arrow { text-align:center; color:#8d89a3; font-size:12px; padding:7px 0; }
+  .law { margin-top:20px; border-top:1px solid #3a3750; padding-top:10px;
+         font-size:11.5px; color:#9a96ad; line-height:1.6; text-align:center; }
+  .voice { border:1.5px dashed #ff8a50; border-radius:10px; padding:7px 12px;
+           font-size:11.5px; margin:14px auto 0; width:360px; text-align:center; color:#ffb08a; }
+</style>
+<div class="board">
+  <h1>TEAM ROCKET METHOD · the krew</h1>
+  <p class="sub">by Medick · names hold still, roles float</p>
+
+  <div class="seat boss">
+    <div class="name">THE BOSS 👑 (that's you)</div>
+    <div class="does">Assigns missions. Rules every fork. The only one who merges.</div>
+  </div>
+  <div class="arrow">▼ missions down · 😼 reports up</div>
+
+  <div class="seat lead">
+    <div class="name">MEOWTH 😼</div>
+    <div class="role">Krew leader · orchestrator (hosted by your strongest model)</div>
+    <div class="does">Knows every seat's strengths, weaknesses, and billing. Routes each task to the
+    cheapest seat that clears the quality bar. Fences parallel work. Gets his hands dirty only
+    when it calls for it, and even then his work gets reviewed like anyone's.</div>
+  </div>
+  <div class="arrow">▼ tickets down · status up (DONE / DONE_WITH_CONCERNS / NEEDS_CONTEXT / BLOCKED)</div>
+
+  <div class="row">
+    <div class="seat worker jessie">
+      <div class="name">JESSIE 🟠</div>
+      <div class="role">Worker · the voice (vendor one)</div>
+      <div class="does">Builds, investigates, reviews James's work when seats flip.</div>
+    </div>
+    <div class="seat worker james">
+      <div class="name">JAMES 🔵</div>
+      <div class="role">Worker · reviewer (vendor two)</div>
+      <div class="does">The fresh, unloyal read on Jessie's work. Builds when routed.</div>
+    </div>
+  </div>
+
+  <div class="voice">🟠 The relationship clause: Jessie talks to the boss directly, missions or not.
+  The orchestration layer never gates her.</div>
+
+  <div class="law">The law underneath: whoever built it never approves it · every message signed
+  with its color · claims capped at evidence ("gates pass," never "it works") · the boss is the
+  judge, never the transport.</div>
+</div>
