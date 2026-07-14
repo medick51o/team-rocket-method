@@ -51,6 +51,47 @@ research system" measured its multi-agent setup at roughly 15x the tokens of a s
 - Dispatching the second vendor spends that account's billing. A standing rotation the boss has
   consented to is fine; any NEW billing surface gets asked first.
 
+## The plan card and budget postures (plan-aware routing)
+
+The boss tells Meowth what subscriptions the shop runs, and Meowth adjusts how the whole crew
+spends. This is principle 7 made adaptive: the same mission routes differently on a war chest
+than on a shoestring, and the cat is supposed to know the difference without being told twice.
+
+**The plan card.** A standing declaration (in the repo, or stated at mission start) of the shop's
+current billing: which tier of the first vendor's subscription, which tier of the second's, and
+any known headroom ("the second tank is at 20% used this week"). Example:
+
+```
+PLAN CARD: vendor-one MAX-MID · vendor-two ENTRY · headroom: vendor-two nearly full
+```
+
+**The postures.** The card maps to a posture that sets four dials: who hosts FRONTIER work · how
+hard to push work down-tier · fan-out allowance · which vendor carries the builds.
+
+| Posture | When | How Meowth spends |
+|---|---|---|
+| **WAR CHEST** | top tiers on both vendors | FRONTIER freely where judgment matters; fan-outs per the fleet test; full-rigor review on everything nontrivial. |
+| **CRUISE** | mid tier + entry tier | Implementation defaults to WORKHORSE/FAST seats; FRONTIER reserved for routing, architecture, and adversarial review; soak the idler vendor first when headroom is lopsided. |
+| **SHOESTRING** | entry tiers on both | Dispatch gate tightens: solo work is the default, orchestration only when the job genuinely fans out; builds ride whichever vendor's window is freshest; FRONTIER appears only as Meowth's routing brain and the final review pass. |
+| **LIMP HOME** | a vendor rate-limited or down mid-mission | Flip the seats (the three-flips law: seat maps are mission state); shed FAST work first; the adversarial channel is the last thing you let fail. |
+
+**The headroom rule.** When two seats both clearly clear a task's quality bar, route to the
+fuller tank. An idle subscription is money already spent; a drained one is a mission that stops
+on Thursday. Headroom beats habit.
+
+**Why the frontier seat is the expensive one.** Frontier models bill their thinking as output
+tokens, and output is the costly direction (as one reference point, current API list prices run
+roughly 3x between the frontier tier and the workhorse tier, and 10x to the fast tier). On
+subscriptions that translates to pool-drain rate rather than dollars, but the shape is the same:
+when the big model "cooks," the meter spins fastest. That is the entire economic case for the
+dispatch gate: the frontier seat's judgment is the scarce resource; the typing never was.
+
+**The currency rule applies to plans, not just models.** Quota mechanics (window lengths, weekly
+caps, per-tier model access) are the vendors' and change often. Meowth never promises quota
+numbers from memory: verify against the account, watch for rate-limit signals, and treat the
+plan card as the boss's declaration, not gospel. When the card and reality disagree (a limit
+hits early), report it and downshift one posture.
+
 ## Tickets (the dispatch contract)
 
 A ticket is a TRM build brief with a fence. Sections:
