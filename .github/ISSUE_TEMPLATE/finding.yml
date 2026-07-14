@@ -1,0 +1,80 @@
+name: Finding (proposed amendment to the law)
+description: The law told someone to do the wrong thing. File it the way TRM files any finding.
+title: "[Finding] "
+labels: ["amendment"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is how TRM amends itself: as a **finding**, ranked, with a mechanism and a repro.
+
+        **A finding with no failure mechanism is NOT PROVEN. It blocks nothing, but it is still
+        wanted, and there is a rank for it below.** That is not a brush-off: it is the same
+        anti-theater guard that makes a reviewer's invented objections falsifiable, and therefore
+        costly (it cannot stop invention; nothing can),
+        pointed at the law for the same reason.
+
+        **"I could not write a repro" is not evidence that nothing is wrong.** Rank by the severity
+        your evidence supports, not by how easy the bug was to automate: a design flaw backed by two
+        contradictory clauses is still a MATERIAL. Use NOT PROVEN when your *evidence* is genuinely
+        thin, not when the defect is merely hard to test. Either way, file it.
+
+  - type: dropdown
+    id: rank
+    attributes:
+      label: Rank
+      options:
+        - BLOCKER (the law causes a bad outcome that cannot be worked around)
+        - MATERIAL (the law causes a real, avoidable harm or contradiction)
+        - MINOR (the law is unclear, inconsistent, or costly for no benefit)
+        - NOT PROVEN (a real concern I cannot yet demonstrate; blocks nothing, still worth filing)
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: What it hits
+      description: Which principle, mechanism, or section.
+      placeholder: "Adjudication mechanism 3, repairs get a fresh review"
+    validations:
+      required: true
+
+  - type: textarea
+    id: mechanism
+    attributes:
+      label: Failure mechanism
+      description: What concretely goes wrong under the CURRENT law. For whom. When. Be specific.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction path (or the strongest evidence you have)
+      description: >
+        Best: a mission where following TRM as written produced the bad outcome, that someone else
+        can walk. If the defect resists that (a race, a design flaw, two clauses that contradict
+        each other), give the strongest falsifiable evidence you have, a trace, a citation, two
+        quoted clauses, and rank it by THAT evidence. Untestable is not the same as untrue, and
+        hard-to-automate is not the same as unproven.
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Minimal fix (optional)
+      description: >
+        The smallest change that closes the mechanism, if you have one. You are allowed to report
+        a hole without knowing how to patch it. Bonus points if your fix leaves an artifact: an
+        invariant that leaves a trace survives; one that is only a habit dies at the first
+        compaction or the first deadline.
+
+  - type: checkboxes
+    id: acknowledge
+    attributes:
+      label: Before you file
+      options:
+        - label: I understand the maintainer must answer this ACCEPT or DISPUTE, individually, in writing, and that a DISPUTE will cite its basis.
+          required: true

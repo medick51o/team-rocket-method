@@ -85,9 +85,18 @@ guarantees):
 2. The session told you your posture and which seats it can actually reach.
 3. The next message you got was signed with a colored emoji.
 
-The guarantees themselves are checked by you, per mission: did the review come from outside the
-builder's lineage, was every finding answered, did the claim stay capped at what a gate proved,
-and did the disagreement reach you instead of dissolving.
+The guarantees themselves are checked by you, per mission:
+
+1. Did the review come from **outside the builder's lineage**?
+2. Does the **containment hold** across the three lists? What actually changed must be a subset of
+   what the builder was *allowed* to touch, and a subset of what the reviewer actually *received*.
+   (Not "the lists match": a permission fence is supposed to be bigger than the change.)
+3. Was **every finding answered** individually, ACCEPT or DISPUTE?
+4. Did a **disputed BLOCKER arrive with evidence** rather than with confidence?
+5. Did the **claim stay capped** at what a gate proved?
+6. Did the **disagreement reach you** instead of dissolving?
+7. Does the **routing ledger** show your plan card actually changed a dispatch decision? *(If it
+   reads the same at every budget, the posture did nothing. Say so.)*
 
 Change subscriptions later? Say "re-run the plan interview." The cat updates the card and
 shifts posture without ceremony.

@@ -14,10 +14,13 @@ models aligned with each other. Keeping a model aligned with the human is its ow
 practiced separately.
 
 ## Why it exists
-Left unstructured, a single capable AI given a vague task will over-reach: inventing scope,
-spawning hidden sub-agents, burning resources, producing work no one can inspect. Two models
+Left unstructured, a single capable AI given a vague task can over-reach, and in this author's
+experience often does: inventing scope, spawning hidden sub-agents, burning resources, producing
+work no one can inspect. Two models
 pointed at the same repo with no rules trip over each other. TRM is the set of rules that turns
-"a bunch of AIs with access" into "a disciplined crew that ships correct work cheaply."
+"a bunch of AIs with access" into a crew whose work can be inspected. Whether it is also *cheaper*
+or *more correct* than the alternatives is unmeasured in this project; this document does not
+claim it.
 
 ## The krew (roles are archetypes; names anchor to vendors, for the boss's legibility)
 
@@ -57,7 +60,10 @@ anti-laundering guard.
 ## The ten principles
 
 1. **Distinct, visible identities.** Every model has a role, a name, and a color, so the human
-   always knows which model is acting. No anonymous work.
+   always knows which seat *claims* to be acting, and no work arrives anonymous. Be precise about
+   what this buys: a signature identifies the **declared** seat, not a verified model. Nothing here
+   cryptographically proves which model produced a message, and a session wearing three hats can
+   sign all three colors. The signature makes identity **legible and falsifiable**, not proven.
 2. **One seat, one job, no UNDECLARED fleets.** Each model does ONE bounded task and does it
    itself. No hidden sub-agent swarms, no self-appointed "verify the whole codebase" sweeps.
    (The anti-pattern that motivated the whole method: an unfenced instance spawning a swarm of
@@ -69,7 +75,9 @@ anti-laundering guard.
    durable, inspectable repo files (assignments, handoffs, a living passdown). Tool-agnostic
    memory that any model or human can read to get caught up.
 5. **Gates referee, but a gate is only an arbiter if it can FAIL.** Automated tests and
-   verification are the objective arbiter. Opinion yields to gate results. Nothing is "done"
+   verification are the most reproducible evidence available, and opinion yields to them **once
+   the test's oracle has been checked against the task** (a green gate over a wrong assertion
+   proves nothing; see adjudication mechanism 6). Nothing is "done"
    until the gates are green. **A regression test is not evidence until it has been proven to
    fail against the unfixed code.** Write it, run it RED, then fix. A test that passes before
    the fix proves nothing, and may be pinning the bug in place. State, per test, what it would
@@ -156,7 +164,8 @@ in this document. A producer cannot "declare" a new seat mid-mission, and hangin
 on a freshly spawned context does not move that context out of its launcher's lineage for work
 the launcher produced. Concretely: the adversarial review of anything a session built must come
 from a seat that is (a) on another vendor's account (cross-vendor independence is real
-independence: different weights, no shared context), or (b) launched by the boss, not by the
+independence: different weights, different training, no shared context, which reduces correlated
+blind spots without eliminating them), or (b) launched by the boss, not by the
 producing session. A producer-launched same-vendor context wearing Jessie's name is a spawn,
 whatever its label. Its approval counts for nothing.
 
@@ -164,7 +173,7 @@ whatever its label. Its approval counts for nothing.
 
 The author reports that an adversarial exchange with a private peer shop drove revisions to
 these mechanisms; identifying details are withheld, and the credit lives in the private record.
-The insight behind all four mechanisms:
+The insight behind every mechanism below:
 **models agree by default. Agreement is the low-energy state, so disagreement has to be
 structural, not requested.**
 
@@ -173,19 +182,108 @@ structural, not requested.**
    incorporate" is banned: blanket agreement is where false consensus hides.
 2. **Findings are ranked and mechanized: BLOCKER / MATERIAL / MINOR / NOT PROVEN.** A finding
    must cite the failure mechanism and a reproduction path; one without them is NOT PROVEN by
-   definition and does not block. Vibes don't rank. This is the anti-theater guard: it stops a
-   reviewer from inventing objections to look rigorous, which is the failure mode you buy when
-   you fix "they agree too much" carelessly.
+   definition and does not block. Vibes don't rank. This is the anti-theater guard, and be precise
+   about what it does: **it cannot stop a reviewer from inventing an objection**: writing a
+   plausible mechanism is exactly what these models are best at (see mechanism 6). What it does is
+   make invention *cost something*: the reviewer must commit to a falsifiable claim, which can then
+   be checked and can fail. It raises the price of theater; it does not abolish it.
 3. **Repairs get a fresh review.** A reviewer never auto-blesses compliance with its own
    suggested fix: a reviewer's proposed fix is itself unreviewed code.
 4. **Claims are capped at what a model can prove.** "Gates pass," never "it works." Built ≠
    validated ≠ proven. When no one is allowed to declare victory, no one has a reason to agree
    their way to it.
+5. **Three lists, and the containment must hold.** *(Added 2026-07-14 by adversarial review of
+   this protocol, then repaired twice by it; see the amendment note below.)* Independence of the
+   reviewer's identity is worth nothing if the builder chooses what the reviewer sees. So a
+   reviewed mission produces **three lists, from three different sources**:
+   - **The write set**, frozen in the ticket **before** the build (globs resolved at freeze time):
+     every path the builder is *permitted* to touch. It is a fence, so it is normally larger than
+     what actually changes.
+   - **The actual delta**, enumerated **after** the build **from the repository itself, never from
+     the builder's account of it**: every path added, modified, deleted, renamed, **and every
+     untracked file**, against the recorded baseline.
+   - **The review manifest**, echoed by the reviewer as the first line of its report: every file
+     it actually received, **each with a content hash the reviewer computed from the bytes it was
+     given**: not copied from a header the builder supplied. Filenames prove nothing; a truncated
+     prompt keeps the list and drops the bodies. Oversized sets go in acknowledged chunks.
+
+   **The rule is containment, not equality:**
+   `actual delta ⊆ write set` **and** `actual delta ⊆ review manifest`.
+   - A path in the **delta but not the write set is a fence breach**: the mission is INCOMPLETE
+     even if the code is perfect, and the breach is reported, never tidied away.
+   - A path in the **delta but not the manifest** means the reviewer never saw something that
+     changed: INCOMPLETE, and any "no findings" verdict is void.
+   - A hash mismatch between what the repo holds and what the reviewer hashed means the reviewer
+     read something other than the code: INCOMPLETE.
+
+   The builder curates none of the three. The mission report prints all three so a human who was
+   not watching can check the containment in ten seconds.
+6. **A disputed finding must be escalated on the strongest falsifiable evidence available, and
+   "no test exists" NEVER means NOT PROVEN.** *(Added 2026-07-14; the first draft of this rule
+   was itself a BLOCKER and is recorded below as a scar.)* "Cite a mechanism and a repro path" is
+   a *writing* requirement, and writing a plausible mechanism is the thing these models are best
+   at on earth. Nothing made the repro *run*. So when a builder DISPUTEs a BLOCKER or MATERIAL:
+   - **If the claim is deterministically testable and a harness exists, someone writes the test**,
+     and it must **fail against the current code**. A red test is necessary, not sufficient: **the
+     test's oracle must be approved by a seat outside the test author's lineage, or by the boss,
+     and that approval must quote the clause of the original task it rests on.** A failing test
+     proves only that the code disagrees with an assertion, not that the assertion is right: a
+     reviewer who asserts the wrong expected behavior can turn correct code red and call it
+     evidence. **If the original task does not settle what the correct behavior is, the boss rules
+     that before the test counts at all**: that is a requirements fork, and it was never the
+     crew's to decide.
+   - **If it is not testable that way**: a race, a design flaw, a security assumption, a
+     documentation contradiction, an in-hand validation no test can perform, then the finding
+     escalates on the **strongest falsifiable evidence available**: a trace, a static analysis, a
+     spec citation, a manual reproduction, a human's own eyes. **Untestability is never evidence
+     against a finding.** Ranking a real BLOCKER as NOT PROVEN because nobody could automate it is
+     a worse failure than the theater this rule exists to prevent.
+   - The human rules the fork with the evidence attached. The point is to send the human what a
+     human is uniquely qualified to rule on, not to give either seat a cheap way to kill an
+     inconvenient truth.
 
 And one sharpening of principles 6 and 8 rather than a new rule: when the capped review rounds
 end in disagreement, the dispute goes UP to the human as a formal fork, both positions stated.
 The models do not negotiate their way to consensus. Models converge when convergence is how the
 conversation ends; under TRM, convergence isn't how anything ends. A ruling is.
+
+### 2026-07-14 amendment: what an adversarial fleet found in this protocol
+
+A four-seat evaluation fleet (two same-vendor seats, two adversarial, one of them cross-vendor)
+was pointed at this method and told to break it. Mechanisms 5 and 6 above are its two most
+valuable findings, and they are recorded here with the reasoning, because a methodology that
+hides its own audit is not one.
+
+**The hole they found:** every rule in this document fixed *who* reviews (lineage, the
+anti-laundering guard, the boss-launched seat) and no rule fixed *what the reviewer is handed*.
+A builder could satisfy every invariant, pass a curated diff to a genuinely independent reviewer,
+collect an honest "no findings," and hand the human a mission report that reads exactly like
+rigor. **Proving a second model was in the room says nothing about what you gave it.**
+
+**The scar, kept because it is the best evidence in this document.** The first draft of these two
+mechanisms was written by the same seat that had just found the hole, and the reviewer marked
+both **NOT DISCHARGED**:
+- Draft mechanism 5 compared the write set to the review manifest, but *both were derived from
+  the same ticket*. It could not see a builder writing to a file it never declared, and matching
+  filenames proved nothing about whether the file *bodies* survived a truncated prompt. It moved
+  the curation hole; it did not close it. Hence three lists, one of them enumerated from the
+  repository itself, and hashes rather than names.
+- Draft mechanism 6 said a disputed finding must become a failing test or drop to NOT PROVEN.
+  That would have **silently killed every real finding that cannot be automated**: races,
+  design flaws, security assumptions, documentation contradictions, by treating "we could not
+  write a test" as evidence that nothing was wrong. It also gave any reviewer a way to make
+  arbitrary code red by asserting the wrong expected behavior, and would have declared that
+  fabrication "real." A rule written to stop fabricated findings would have licensed them.
+
+Both drafts read as rigorous. Both were worse than the disease. **That is what an adversarial
+reviewer is for, and it is why the builder does not approve its own work, including this one.**
+
+**The general lesson, kept because it governs future amendments:** *an invariant that leaves an
+artifact survives; an invariant that exists only as a habit dies at the first context compaction
+or the first deadline.* Rules whose compliance produces a file (a delta enumerated, a manifest
+hashed, a round counted) can be checked by a human who was not watching. Rules that live only in
+a model's good intentions cannot. **When choosing between two ways to write a rule, choose the
+one that leaves a trace.**
 
 The convergent law, independently derived more than once before it was written down: treat
 ambiguity as a finding, never as an input. A model that resolves ambiguity by just implementing

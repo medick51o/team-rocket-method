@@ -1,0 +1,74 @@
+name: Field Report
+description: You ran TRM on something real. Tell us what happened, especially if it went badly.
+title: "[Field Report] "
+labels: ["field-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        TRM's track record is currently the author's reported experience, which by its own claims
+        cap is **not published evidence**. Field reports are how that changes.
+
+        **Negative results are wanted more than positive ones, and a report is never rejected for
+        its conclusion.** The only edits ever made are disclosed redactions for secrets, personal
+        data, or safety; substance is never softened. A method that only collects testimonials
+        from people it worked for is a marketing funnel.
+
+  - type: input
+    id: plan-card
+    attributes:
+      label: Your plan card
+      description: Which bands and which posture (see MEOWTH-MANUAL.md). Vendor names optional.
+      placeholder: "primary MID + support ENTRY = CRUISE"
+    validations:
+      required: true
+
+  - type: input
+    id: seats
+    attributes:
+      label: Your seats
+      description: Who actually reviewed? Cross-vendor, boss-launched fresh session, or declared solo?
+      placeholder: "builder: vendor A. reviewer: vendor B, cross-vendor. orchestrator: hat, not a session."
+    validations:
+      required: true
+
+  - type: textarea
+    id: mission
+    attributes:
+      label: The mission
+      description: What did you point it at? Size and shape, not secrets.
+    validations:
+      required: true
+
+  - type: textarea
+    id: caught
+    attributes:
+      label: What the adversarial review actually caught
+      description: >
+        Real findings only. If review caught nothing, say so: that is a result, not a failure to
+        report. If it produced a confident finding that turned out to be fiction, that is the most
+        valuable line in this form.
+    validations:
+      required: true
+
+  - type: textarea
+    id: missed
+    attributes:
+      label: What it missed, or got wrong
+      description: Bugs that shipped anyway. Fabricated findings. Ceremony that cost more than it saved.
+
+  - type: textarea
+    id: cost
+    attributes:
+      label: What it cost
+      description: >
+        Rough is fine: wall-clock, rounds, how much of your window it ate, whether you would pay it
+        again. TRM's economic claims are unmeasured; this is the only way that changes.
+
+  - type: textarea
+    id: change
+    attributes:
+      label: What you would change about the method
+      description: >
+        If the law told you to do the wrong thing, say where. With a mechanism and a repro, this
+        becomes an AMENDMENT (see CONTRIBUTING.md).

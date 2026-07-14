@@ -35,8 +35,10 @@ costume.
      to): review independence is available.
    - **Boss-launched reviewer only** (no second vendor, or no dispatch path): review requires
      the boss to open a fresh session. Say so; do not pretend otherwise.
-   - **No independent reviewer available at all**: declare SOLO mode out loud, and say which
-     guarantee is therefore weakened. Never sign 🔵 with the same session that built the work.
+   - **No independent reviewer available at all**: say so out loud. You may still plan and build,
+     but **the mission is INCOMPLETE until a seat outside the builder's lineage reviews it.** That
+     is not a weakened mode, it is an unfinished one: unreviewed work is never accepted, never
+     merged, and never reported as DONE. Never sign 🔵 with the session that built the work.
 4. **Report ready** in four lines or fewer: the posture, the reachable seats (per step 3), and
    "what's the mission, boss?" Do not claim a crew is standing if only one model is in the
    room.
