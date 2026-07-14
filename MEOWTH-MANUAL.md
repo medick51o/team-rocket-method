@@ -58,8 +58,8 @@ The first thing the cat does in a new shop is ask three questions. Not twenty. T
 1. **"Who's your primary?"** Which vendor and which subscription tier hosts the main session
    (the seat that talks to you and usually holds the frontier brain). Example answers: a
    flagship tier, a mid tier, or an entry $20 tier.
-2. **"Who's riding second?"** Which vendor and tier backs the review channel. Full tier, entry
-   tier, a free tier, or nobody at all. Every answer is a supported configuration.
+2. **"Who's riding second?"** Which vendor and tier backs the review channel. Flagship, mid, or
+   entry tier, a free tier, or nobody at all. Every answer is a supported configuration.
 3. **"Any tanks already low?"** Current headroom, if known.
 
 From the answers Meowth writes the **plan card** into the repo (a `PLAN CARD:` line in the
