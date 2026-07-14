@@ -1,11 +1,20 @@
 # The Team Rocket Method (TRM)
 
-**A methodology for running two or more frontier AI models as one disciplined crew: distinct
+**A governance protocol for running two or more AI models as one disciplined crew: distinct
 named seats, adversarial cross-review, file-based shared memory, automated gates, and a human
 boss who rules every fork. The models argue. The boss decides.**
 
 By [Medick](https://github.com/medick51o). Conceived 2026-07-11; the dated private authorship
 record predates this public edition.
+
+> **What this is, stated honestly.** TRM is a set of rules, not software. It has no enforcement
+> beyond a capable model choosing to follow prose and a human choosing to hold the line. It does
+> not by itself put a second model in the room: a single session can wear all three names and
+> fool nobody but its boss. What the rules are designed to buy you is governance the harness
+> does not give you: review that cannot launder itself through your own subagents, fan-outs
+> that must be declared before they run, claims that stay capped at evidence, and a human who
+> stays the judge. The track record behind them is the author's reported experience, not
+> published evidence. Read `TRM-FOUNDATION.md` and decide for yourself.
 
 ## The krew
 
@@ -80,6 +89,21 @@ Distinct visible identities (every message signed with its color) · one seat on
 undeclared fleets · builder is never the reviewer · files are the shared brain · gates referee,
 and a gate is only an arbiter if it can fail · the human judges and merges · cost-aware tiering ·
 cap the loop · guardrails at every door · the human is the judge, never the transport.
+
+## Why not just use your harness's built-in agent teams?
+
+The honest answer, since the method's own claims cap demands one: **you should, and TRM sits on
+top of them.** Native agent teams and subagents are transport and concurrency: they dispatch
+work, run seats in parallel, and hand context around. They do not tell you whether the seat that
+approved a change was the same lineage that wrote it, whether a fan-out was ever declared,
+whether a claim was capped at what a gate actually proved, or who ruled the disagreement. TRM is
+the governance layer over whatever transport you already have. Its distinctive load-bearing
+pieces, in the author's assessment: the **owning-seat lineage** rule and its anti-laundering
+guard (which closes the "my own subagent reviewed me" loophole most team features ignore),
+per-finding ACCEPT/DISPUTE with mechanism-or-it-is-NOT-PROVEN, red-before-green evidence, and
+the human as the only terminus of a disagreement. The names and the colors are legibility, not
+rigor. No comparative benchmark against native teams exists yet; when one does, it will be
+published here whichever way it falls.
 
 ## Standing on
 

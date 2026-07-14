@@ -1,6 +1,6 @@
 ---
 name: goteamrocket
-description: Alias for /trm. Launch the Team Rocket Method, stand up the krew (😼🟠🔵), load or create the plan card, and ask the boss for the first mission. Trigger ONLY when the user types /goteamrocket, or shouts "go team rocket" as a command to start working. Do NOT trigger on discussion or quotation of the phrase.
+description: Alias for /trm. Initialize the Team Rocket Method protocol, load the doctrine and plan card, declare which seats are reachable, and ask the boss for the first mission. Trigger ONLY when the user types /goteamrocket, or shouts "go team rocket" as a command to start working. Do NOT trigger on discussion or quotation of the phrase.
 ---
 
 # /goteamrocket

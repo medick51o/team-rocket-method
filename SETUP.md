@@ -69,18 +69,25 @@ Confirm the plan card and the anchors, then ask me for the first mission.
 
 ---
 
-## What you just installed
+## What you just installed, honestly
 
-No binaries, no dependencies, no additional accounts: TRM is a set of rules written for a
-capable model to follow, and the paste block makes your session read the two documents that
-matter, learn what you pay for, and size its appetite to your wallet. After that, the boss seat
-is yours.
+No binaries, no dependencies, no additional accounts: TRM is a set of rules written for a capable
+model to follow. The launcher makes your session read the two documents that matter, learn what
+you pay for, and declare which seats it can actually reach. What it does NOT do is put a second
+model in the room for you. If your harness cannot dispatch to another vendor, the launcher is
+required to say so and run in declared solo mode: the boss opens the review session. A session
+that announces three colored names while one model does all the work has followed none of this.
 
-Three checks that the launcher completed its visible setup steps:
+Three checks that the launcher completed its visible setup steps (these check setup, not the
+guarantees):
 
 1. `PLAN-CARD.md` exists with one dated line (or the session printed the card for you to save).
-2. The session told you your posture and what it means, in plain words.
+2. The session told you your posture and which seats it can actually reach.
 3. The next message you got was signed with a colored emoji.
+
+The guarantees themselves are checked by you, per mission: did the review come from outside the
+builder's lineage, was every finding answered, did the claim stay capped at what a gate proved,
+and did the disagreement reach you instead of dissolving.
 
 Change subscriptions later? Say "re-run the plan interview." The cat updates the card and
 shifts posture without ceremony.
