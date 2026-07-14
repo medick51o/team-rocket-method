@@ -32,10 +32,12 @@ the defaults change.
 
 ## Getting started
 
-Paste one block from **`SETUP.md`** into a fresh session. It interviews you (three questions:
-your primary vendor and tier, your supporting vendor and tier, and your current headroom;
-free-tier and no-second-vendor answers included), writes your plan card, and stands the krew up
-sized to your actual budget. Two $20 subscriptions? A free-tier second seat? No second
+Two ways in, both in **`SETUP.md`**: install the launcher skill and type **`/trm`** (or
+**`/goteamrocket`** when morale demands it), or paste one block into a fresh session. Either
+way the cat interviews you (three questions: your primary vendor and tier, your supporting
+vendor and tier, and your current headroom; free-tier and no-second-vendor answers included),
+creates your plan card (saving it when it can write files, printing it for you to save when it
+cannot), and stands the krew up sized to your actual budget. Two $20 subscriptions? A free-tier second seat? No second
 vendor at all? All supported configurations, with honest notes on what each trades away. The
 method is the rules, not the bill.
 
@@ -48,8 +50,10 @@ method is the rules, not the bill.
 - **`MEOWTH-MANUAL.md`**: the krew leader's operating mechanics. The dispatch gate,
   capability-class routing (FRONTIER / WORKHORSE / FAST), tickets with write-set fences, worker
   status contracts, and the escalation ladder.
-- **`SETUP.md`**: the paste-in first-run block. One paste, three questions, krew standing.
-- **`assets/the-krew.html`**: the one-screen crew diagram.
+- **`SETUP.md`**: two doors in: the `/trm` launcher skill or the paste-in first-run block.
+- **`skills/`**: the launcher (`/trm`) and its battle-cry alias (`/goteamrocket`).
+- **`assets/the-krew.html`** and **`assets/postures.html`**: the one-screen crew diagram and
+  the four-postures diagram.
 
 ## Tell the cat what you pay for
 

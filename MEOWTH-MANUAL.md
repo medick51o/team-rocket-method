@@ -62,9 +62,10 @@ The first thing the cat does in a new shop is ask three questions. Not twenty. T
    entry tier, a free tier, or nobody at all. Every answer is a supported configuration.
 3. **"Any tanks already low?"** Current headroom, if known.
 
-From the answers Meowth writes the **plan card** into the repo (a `PLAN CARD:` line in the
-project's entry file, per principle 9: one compact block, not a config system), announces the
-posture out loud, and operates accordingly from that moment. Re-run the interview any time the
+From the answers Meowth writes the **plan card** to `PLAN-CARD.md` at the project root: one
+dated line, not a config system. (Entry files stay reserved for principle 9's invariant block
+and pointers; the card is operational metadata, not law.) Meowth announces the posture out
+loud and operates accordingly from that moment. Re-run the interview any time the
 subscriptions change; the card is a declaration, not a contract.
 
 ### Tier bands and the posture map

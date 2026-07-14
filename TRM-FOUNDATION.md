@@ -91,7 +91,22 @@ anti-laundering guard.
    is how the law forks. The compact block is not a pointer: it must itself carry the operative
    invariants, sufficient to govern a model's behavior even if the doctrine is never opened.
    The block's canonical text is defined exactly once, in the authoritative doctrine, copied
-   verbatim into every entry file, versioned by the doctrine's date plus commit.
+   verbatim into every entry file, versioned by the doctrine's date plus a revision counter.
+   TRM's canonical block is defined here and nowhere else:
+
+   ```
+   TRM INVARIANTS (v2026-07-14 r1 · doctrine: TRM-FOUNDATION.md)
+   - Whoever built it never approves it; review comes from another vendor's
+     account or a boss-launched fresh seat.
+   - Claims are capped at evidence: "gates pass," never "it works."
+   - Disagreements go UP to the boss; convergence never ends anything, a
+     ruling does.
+   - Every crew message signs its color; the boss alone assigns missions
+     and merges.
+   ```
+
+   Entry files and the launcher skill copy that block verbatim; everything else in them is a
+   pointer.
 10. **The human is the judge, not the transport.** A blocked seat re-plans around the block. It
     does NOT delegate the block to the human. The human's hands are reserved for the only two
     things that are actually his: ruling and merging. Never assume the human is at the keyboard;
@@ -237,8 +252,9 @@ reinvented, from:
 Written, exercised through internal adjudicated validation runs (private records; the lessons
 are encoded in this document), and in live use in the author's shop. Treat the method's rules as
 the shippable artifact and its track record as the author's reported experience, per its own
-claims cap. Not yet packaged as an installable skill; the documents themselves are the method.
-If you run it, the boss seat is yours: the models argue, you decide.
+claims cap. The documents are the method; a launcher skill ships alongside them (`skills/`,
+invoked as `/trm` or `/goteamrocket`) so a session can summon the krew in one word. If you run
+it, the boss seat is yours: the models argue, you decide.
 
 *Concept and authorship: Medick, 2026-07-11. The dated private repository is the authorship
 record; this public edition was prepared 2026-07-14.*

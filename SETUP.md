@@ -1,4 +1,26 @@
-# Setup: paste one block, meet your krew
+# Setup: one slash command, or one paste block
+
+## Option A: the slash command (Claude Code and compatible harnesses)
+
+Copy the two skill folders into your skills directory, and give the launcher its own copies of
+the two doctrine documents so `/trm` works in any project, not just this repo:
+
+```
+mkdir -p ~/.claude/skills
+cp -R skills/trm skills/goteamrocket ~/.claude/skills/
+cp TRM-FOUNDATION.md MEOWTH-MANUAL.md ~/.claude/skills/trm/
+```
+
+(POSIX shell shown; project-local install works the same with `.claude/skills/` as the
+destination. On Windows PowerShell, use `New-Item -ItemType Directory` and `Copy-Item -Recurse`
+equivalents.) The copies beside the skill are a distribution convenience, not a second law:
+when a project carries its own doctrine files, the project's copies win, and the version line
+in each file tells you which is newer.
+
+Then type **`/trm`** (or **`/goteamrocket`**, same thing, more spirit). First run interviews
+you and saves the plan card; every run after that loads the card and asks for the mission.
+
+## Option B: the paste block (any capable model, no install)
 
 Copy the block below into a session of your primary AI **with this repo available** (clone or
 download it first; a repo-aware harness like a coding CLI is the intended home). A chat-only
@@ -31,9 +53,16 @@ whatever vendor hosts it. I am the boss: the only one who assigns missions, rule
 disagreements, and merges. Whichever seat talks to me day to day keeps talking to me; the
 orchestration layer never gates my access to it.
 
-From now on: every message from a crew member ends with its color, whoever built a thing never
-approves it, claims are capped at evidence ("gates pass," never "it works"), and when reviewers
-and builders disagree, the disagreement comes to me instead of being negotiated away.
+From now on these invariants bind, quoted verbatim from the doctrine:
+
+TRM INVARIANTS (v2026-07-14 r1 · doctrine: TRM-FOUNDATION.md)
+- Whoever built it never approves it; review comes from another vendor's
+  account or a boss-launched fresh seat.
+- Claims are capped at evidence: "gates pass," never "it works."
+- Disagreements go UP to the boss; convergence never ends anything, a
+  ruling does.
+- Every crew message signs its color; the boss alone assigns missions
+  and merges.
 
 Confirm the plan card and the anchors, then ask me for the first mission.
 ```
@@ -47,7 +76,7 @@ capable model to follow, and the paste block makes your session read the two doc
 matter, learn what you pay for, and size its appetite to your wallet. After that, the boss seat
 is yours.
 
-Three sanity checks that it worked:
+Three checks that the launcher completed its visible setup steps:
 
 1. `PLAN-CARD.md` exists with one dated line (or the session printed the card for you to save).
 2. The session told you your posture and what it means, in plain words.
