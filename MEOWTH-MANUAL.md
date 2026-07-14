@@ -51,6 +51,81 @@ research system" measured its multi-agent setup at roughly 15x the tokens of a s
 - Dispatching the second vendor spends that account's billing. A standing rotation the boss has
   consented to is fine; any NEW billing surface gets asked first.
 
+## First-run setup: the interview
+
+The first thing the cat does in a new shop is ask three questions. Not twenty. Three.
+
+1. **"Who's your primary?"** Which vendor and which subscription tier hosts the main session
+   (the seat that talks to you and usually holds the frontier brain). Example answers: a
+   flagship tier, a mid tier, or an entry $20 tier.
+2. **"Who's riding second?"** Which vendor and tier backs the review channel. Full tier, entry
+   tier, a free tier, or nobody at all. Every answer is a supported configuration.
+3. **"Any tanks already low?"** Current headroom, if known.
+
+From the answers Meowth writes the **plan card** into the repo (a `PLAN CARD:` line in the
+project's entry file, per principle 9: one compact block, not a config system), announces the
+posture out loud, and operates accordingly from that moment. Re-run the interview any time the
+subscriptions change; the card is a declaration, not a contract.
+
+### Tier bands and the posture map
+
+Bands keep the map future-proof (the currency rule: tier names and quotas are the vendors' and
+change often; bands don't).
+
+| Band | Meaning | Date-bound illustrations (July 2026; not plan names to trust, verify against your own account) |
+|---|---|---|
+| **FLAGSHIP** | a vendor's top consumer tier | Claude Max top option · Codex Pro top option |
+| **MID** | a vendor's middle tier | Claude Max base option · Codex Pro base option |
+| **ENTRY** | the $20-class tier | Claude Pro · Codex Plus |
+| **MINIMAL** | a free tier | Codex Free |
+| **NONE** | no second vendor | solo-vendor shop |
+
+The map is total: every legal card lands on exactly one row. MINIMAL is never a primary band (a
+primary seat needs a paid window to hold a mission at all; below ENTRY, run tasks by hand and
+skip the orchestration layer).
+
+| Primary band | Support band | Posture |
+|---|---|---|
+| FLAGSHIP | FLAGSHIP or MID | **WAR CHEST** |
+| FLAGSHIP | ENTRY, MINIMAL, or NONE | **CRUISE** |
+| MID | any | **CRUISE** |
+| ENTRY | any | **SHOESTRING** |
+
+With MINIMAL or NONE support, WAR CHEST is unreachable by design (fan-out freedom assumes a
+second pair of eyes with capacity), and the review channel follows the thin-support rules below.
+LIMP HOME is a runtime posture (a vendor died mid-mission), never a card mapping.
+
+### When the support seat is thin or missing
+
+The adversarial channel is the last thing you let fail, and it does not require a rich second
+vendor. The foundation's anti-laundering guard makes two review paths legal: a seat on another
+vendor's account, OR a fresh-context seat **launched by the boss** rather than by the producing
+session. That second path is what keeps budget shops honest:
+
+- **Support = ENTRY:** the second vendor reviews everything nontrivial (reviews are cheap
+  relative to builds); it takes the hammer only when the primary's window is drained.
+- **Support = MINIMAL (free tier):** spend the tiny allowance where cross-vendor eyes matter
+  most: the riskiest diffs, safety-rule code, anything about to ship. Everything else gets a
+  boss-launched fresh-context reviewer on the primary vendor.
+- **Support = NONE (solo vendor):** every review is a boss-launched fresh seat on the primary
+  vendor, given the original task verbatim and none of the builder's narrative. Honest note,
+  stated once: cross-vendor review is the gold standard (different weights, no shared blind
+  spots), and a solo shop runs a real but weaker version of the independence guarantee. The
+  process still runs and the law still binds; the boss's own eyes matter more.
+
+### When the primary is ENTRY ($20-class)
+
+A $20 primary may not offer the vendor's frontier model at all, and its windows are tight. The
+cat adjusts expectations, not the law: Meowth is hosted by the strongest VERIFIED available seat
+(never call a seat FRONTIER unless it verifiably is; hosting is a seat property); missions stay
+small and single-sliced; fan-outs are off by default; the dispatch gate treats almost everything
+as "just do it"; and the review channel leans on the second vendor, whose entry tier is often
+the budget shop's best asset. When no available seat clearly clears a task's judgment bar, the
+honest moves are: slice the task smaller, draft a proposal for the boss instead of an
+implementation, or say so and stop. Pretending a mid seat is a frontier seat is how the quality
+bar dies in the dark. A two-seat $40 shop runs TRM in the small the way a $400 shop runs it in
+the large: same law, same colors, same boss.
+
 ## The plan card and budget postures (plan-aware routing)
 
 The boss tells Meowth what subscriptions the shop runs, and Meowth adjusts how the whole crew
@@ -62,18 +137,18 @@ current billing: which tier of the first vendor's subscription, which tier of th
 any known headroom ("the second tank is at 20% used this week"). Example:
 
 ```
-PLAN CARD: vendor-one MAX-MID · vendor-two ENTRY · headroom: vendor-two nearly full
+PLAN CARD (2026-07-14): primary MID · support ENTRY · headroom: support nearly full
 ```
 
 **The postures.** The card maps to a posture that sets four dials: who hosts FRONTIER work · how
 hard to push work down-tier · fan-out allowance · which vendor carries the builds.
 
-| Posture | When | How Meowth spends |
+| Posture | When (see the band map below) | How Meowth spends |
 |---|---|---|
-| **WAR CHEST** | top tiers on both vendors | FRONTIER freely where judgment matters; fan-outs per the fleet test; full-rigor review on everything nontrivial. |
-| **CRUISE** | mid tier + entry tier | Implementation defaults to WORKHORSE/FAST seats; FRONTIER reserved for routing, architecture, and adversarial review; soak the idler vendor first when headroom is lopsided. |
-| **SHOESTRING** | entry tiers on both | Dispatch gate tightens: solo work is the default, orchestration only when the job genuinely fans out; builds ride whichever vendor's window is freshest; FRONTIER appears only as Meowth's routing brain and the final review pass. |
-| **LIMP HOME** | a vendor rate-limited or down mid-mission | Flip the seats (the three-flips law: seat maps are mission state); shed FAST work first; the adversarial channel is the last thing you let fail. |
+| **WAR CHEST** | primary FLAGSHIP, support MID or better | FRONTIER freely where judgment matters; fan-outs per the fleet test; full-rigor review on everything nontrivial. |
+| **CRUISE** | primary FLAGSHIP or MID, with lesser (or thin) support | Implementation defaults to WORKHORSE/FAST seats; FRONTIER reserved for routing, architecture, and adversarial review; soak the idler vendor first when headroom is lopsided. |
+| **SHOESTRING** | primary ENTRY | Dispatch gate tightens: solo work is the default, orchestration only when the job genuinely fans out; builds ride whichever vendor's window is freshest; the strongest verified seat appears only as Meowth's routing brain and the final review pass. |
+| **LIMP HOME** | a vendor rate-limited or down mid-mission (runtime only) | Flip the seats (the three-flips law: seat maps are mission state); shed FAST work first; the adversarial channel is the last thing you let fail. |
 
 **The headroom rule.** When two seats both clearly clear a task's quality bar, route to the
 fuller tank. An idle subscription is money already spent; a drained one is a mission that stops

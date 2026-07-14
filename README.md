@@ -30,6 +30,15 @@ honest; the reference shop uses OpenAI's Codex CLI in that supporting role. If y
 Claude plus one other model, this maps onto it directly. If it isn't, the roles still work; only
 the defaults change.
 
+## Getting started
+
+Paste one block from **`SETUP.md`** into a fresh session. It interviews you (three questions:
+your primary vendor and tier, your supporting vendor and tier, and your current headroom;
+free-tier and no-second-vendor answers included), writes your plan card, and stands the krew up
+sized to your actual budget. Two $20 subscriptions? A free-tier second seat? No second
+vendor at all? All supported configurations, with honest notes on what each trades away. The
+method is the rules, not the bill.
+
 ## What's in this repo
 
 - **`TRM-FOUNDATION.md`**: the ten principles, the fleet-legality test, the Adjudication
@@ -39,6 +48,8 @@ the defaults change.
 - **`MEOWTH-MANUAL.md`**: the krew leader's operating mechanics. The dispatch gate,
   capability-class routing (FRONTIER / WORKHORSE / FAST), tickets with write-set fences, worker
   status contracts, and the escalation ladder.
+- **`SETUP.md`**: the paste-in first-run block. One paste, three questions, krew standing.
+- **`assets/the-krew.html`**: the one-screen crew diagram.
 
 ## Tell the cat what you pay for
 
@@ -47,9 +58,8 @@ tier you run on each vendor, and how full the tanks are) and Meowth 😼 adjusts
 spending posture: WAR CHEST, CRUISE, SHOESTRING, or LIMP HOME. Same mission, different budget,
 different routing: top tiers get free-swinging frontier work and parallel fan-outs; two $20
 subscriptions get a tight dispatch gate, builds routed to whichever window is freshest, and the
-frontier model showing up only where judgment actually lives. Downgrade your plans and the cat
+strongest seat showing up only where judgment actually lives. Downgrade your plans and the cat
 downgrades his appetite, not your quality bar. Details in `MEOWTH-MANUAL.md`.
-- **`assets/the-krew.html`**: the one-screen crew diagram.
 
 ## What's deliberately NOT here
 

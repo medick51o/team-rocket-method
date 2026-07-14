@@ -49,6 +49,10 @@ decipher at a glance who is working on what, and whom he is talking to. BUILDER 
 roles float between Jessie and James per mission (three flips, three causes); the ORCHESTRATOR
 role never leaves Meowth's NAME. Whoever hosts orchestration is operating Meowth's seat and
 signs 😼, whatever vendor hosts it, so the boss always sees the cat when there is barking.
+Other shops declare their own anchors at setup: bind each name to a vendor on day one, the
+boss's choice, and hold the binding still thereafter. A solo-vendor shop still runs the James 🔵
+seat: hosted by the same vendor and staffed exclusively by boss-launched fresh contexts, per the
+anti-laundering guard.
 
 ## The ten principles
 
