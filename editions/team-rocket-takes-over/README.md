@@ -33,7 +33,7 @@ does not claim to change the world, and it does not claim to surpass the method 
 from. Strip the costumes off and what remains is the Team Rocket Method's governance law
 (which lives at the repo root and makes its own carefully hedged claims — read it and decide
 for yourself). What THIS branch adds is a **costume department**: permanent named
-characters, chromatic rivalries, laws written as lore, Pokémon-named sub-agents, and a
+characters, chromatic rivalries, laws written as lore, sub-agents with canon names, and a
 talking cat who runs the room.
 
 So why does it exist? Because in the author's experience — reported experience, not
@@ -74,7 +74,7 @@ Google) so the Anthropic tokens live to fight another day.
 
 **The one hard guardrail:** a reviewer's worn model is always a DIFFERENT vendor than the
 one the build was made in. No Grok reviewing Grok. The rivalry stays honest or it isn't a
-rivalry. Sub-agents are Pokémon named from their spawner's canon team (Claude-side: Arbok,
+rivalry. Sub-agents draw their names from the spawner's canon team — you know the one — (Claude-side: Arbok,
 Wobbuffet, Seviper… · Codex-side: Weezing, Inkay, Victreebel…); anonymous one-shot fodder
 are **Grunts**.
 
@@ -156,3 +156,8 @@ we were kids.
 the same two nights the SHOP (under earlier formats) shipped a 1440p/144 streaming unlock, a
 live web hub, a controller overlay, and an art contest across five AI studios. Whether THIS
 format earns its own scorecard is what season one will decide.*
+
+---
+*A fan-made naming convention. Not affiliated with, endorsed by, or containing any
+assets of any monster-catching franchise you may be thinking of. All character naming is
+homage; all machinery is original; the cat is legally just a cat who talks.*
