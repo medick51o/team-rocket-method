@@ -8,7 +8,7 @@ want to vibe code."
 
 ## Install
 Copy this folder to `~/.claude/skills/cat-in-charge/`, then type `/cat-in-charge` in any
-Claude Code session. It loads the full TRM law first (`TRM-FOUNDATION.md` + `MEOWTH-MANUAL.md`
+Claude Code session. It loads the full TRM law first (`TRM-FOUNDATION.md` + `CAT-MANUAL.md`
 — repo root or beside the `trm` skill), then arms the vibe.
 
 ## Requires
