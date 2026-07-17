@@ -141,7 +141,7 @@ method is the rules, not the bill.
   Protocol (ranked findings, per-finding ACCEPT/DISPUTE, repairs get fresh review, claims capped
   at evidence), and the lineage rules that keep review independence real even when one seat
   launches the others.
-- **`MEOWTH-MANUAL.md`**: the krew leader's operating mechanics. The dispatch gate,
+- **`CAT-MANUAL.md`**: the krew leader's operating mechanics. The dispatch gate,
   capability-class routing (FRONTIER / WORKHORSE / FAST), tickets with write-set fences, worker
   status contracts, and the escalation ladder.
 - **`SETUP.md`**: two doors in: the `/trm` launcher skill or the paste-in first-run block.
@@ -157,7 +157,7 @@ spending posture: WAR CHEST, CRUISE, SHOESTRING, or LIMP HOME. Same mission, dif
 different routing: top tiers get free-swinging frontier work and parallel fan-outs; two $20
 subscriptions get a tight dispatch gate, builds routed to whichever window is freshest, and the
 strongest seat showing up only where judgment actually lives. Downgrade your plans and the cat
-downgrades his appetite, not your quality bar. Details in `MEOWTH-MANUAL.md`.
+downgrades his appetite, not your quality bar. Details in `CAT-MANUAL.md`.
 
 ## What's deliberately NOT here
 
