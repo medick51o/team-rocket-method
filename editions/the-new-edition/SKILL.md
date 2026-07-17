@@ -96,10 +96,15 @@ more; then the line re-stops seconds later because settling "pink" never settled
 
 ## WIRING NOTES (how the wardrobes are physically worn — as of the fork date)
 - **grok ⚫** = Grok Build CLI, headless: `grok -p / --prompt-file` (subscription OIDC).
-- **agy 🟢** = Antigravity CLI, headless: `agy -p` (Google-account login, Google AI Pro sub;
-  Claude-Code-shaped flags: `--model`, `--mode`, `-c`). Serves multiple vendors' models —
-  DOCTRINE: for review independence, count agy as the GOOGLE bloodline only when wearing a
-  Gemini model; agy-running-Claude is not an independent reviewer of Claude work.
+- **agy 🟢** = Antigravity CLI, headless: `agy -p` (Google-account login, Google AI Pro sub —
+  a PAID seat at ~$5/mo promo, the best deal in the shop; Claude-Code-shaped flags:
+  `--model`, `--mode`, `-c`). Serves multiple vendors' models — DOCTRINE: for review
+  independence, count agy as the GOOGLE bloodline only when wearing a Gemini model;
+  agy-running-Claude is not an independent reviewer of Claude work.
+  **THE OVERFLOW VALVE (boss strategy):** the green seat is the heavy-lifting cousin — when
+  the Claude weekly budget runs hot, the cat shifts bulk/heavy work to agy (which can even
+  wear Claude 4.6 there, billed to Google's five bucks) so the boss's Anthropic tokens live
+  to fight another day. Watch the meter; spend green before orange when the work allows.
 - Dispatch ritual for any wardrobe: ticket file → headless dispatch → the cat gates
   independently (render/probe/screenshot) → re-ticket → loop. Trails are mandatory where the
   fence is wider than one file.
