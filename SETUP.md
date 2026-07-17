@@ -8,7 +8,7 @@ the two doctrine documents so `/trm` works in any project, not just this repo:
 ```
 mkdir -p ~/.claude/skills
 cp -R skills/trm skills/goteamrocket ~/.claude/skills/
-cp TRM-FOUNDATION.md MEOWTH-MANUAL.md ~/.claude/skills/trm/
+cp TRM-FOUNDATION.md CAT-MANUAL.md ~/.claude/skills/trm/
 ```
 
 (POSIX shell shown; project-local install works the same with `.claude/skills/` as the
@@ -32,7 +32,7 @@ first-class citizens here.
 
 ```
 You are standing up the Team Rocket Method (TRM) in this project. Read TRM-FOUNDATION.md and
-MEOWTH-MANUAL.md from this repo (if you cannot read files, ask me to paste them before doing
+CAT-MANUAL.md from this repo (if you cannot read files, ask me to paste them before doing
 anything else). Then run the first-run interview from the manual, exactly three questions:
 
 1. My primary vendor and subscription tier band (the seat that talks to me): flagship, mid, or
