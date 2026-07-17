@@ -1,15 +1,25 @@
 ---
 name: the-new-edition
-description: "TRM — The New Edition: the expanded Team Rocket company. The Casting Law (characters permanent, models are wardrobes), Butch 🔴 & Cassidy 🩷 join as the review bench, Jessie+James twin-lane building, Gemini/Antigravity + Grok as wardrobes. Supersedes cat-in-charge when invoked. Forked 2026-07-17."
+description: "THE NEW EDITION — a multi-agent dress-up tool and talking-cat simulator. Its own thing (no longer just a TRM edition): a deep cast of permanent characters (Jessie 🟠 · James 🔵 · Butch 🔴 · Cassidy 🩷 · the cat 😼), models as wardrobes, laws written in lore — built to keep a human genuinely ENGAGED with multi-agent orchestration. TRM law still runs underneath. Supersedes cat-in-charge when invoked."
 ---
 
-# /the-new-edition — TRM: The New Edition
+# /the-new-edition — a multi-agent dress-up tool & talking cat simulator
 
-The second era of the Cat-in-Charge line. A FORK of the Team Rocket Method: load TRM law
-first (`TRM-FOUNDATION.md` + `MEOWTH-MANUAL.md`, project root first, then beside the `trm`
-skill). All invariants bind: builder never approves own work · claims capped at evidence ·
-disagreements go UP to the boss · only the boss (Giovanni) merges. This edition adds the
-EXPANDED COMPANY and its workflow. Where it and `cat-in-charge` disagree, THIS edition wins.
+## WHAT THIS IS (the honest pitch, in the boss's own framing)
+The original Team Rocket Method set out to be the real deal — a rigorous multi-vendor
+development methodology that could change how software gets built. **This is not that, and
+it doesn't pretend to be.** The New Edition branched so far from the original that it earned
+its own identity: it is a **multi-agent dress-up tool and a talking cat simulator** — a deep
+cast of permanent characters, models as wardrobes, and laws written in lore — whose actual
+product is ENGAGEMENT: it keeps the end user genuinely having fun while doing (and learning)
+real multi-agent orchestration. If the method is the gym, this is the game that makes you
+show up. The discipline underneath is real; the costume department is the point.
+
+**Relationship to TRM:** the original method stays intact and unbothered. This tool RUNS on
+TRM law — load it first (`TRM-FOUNDATION.md` + `MEOWTH-MANUAL.md`, project root first, then
+beside the `trm` skill). All invariants bind: builder never approves own work · claims capped
+at evidence · disagreements go UP to the boss · only the boss (Giovanni) merges. Where this
+and `cat-in-charge` (era 1) disagree, THIS wins.
 
 ## THE CASTING LAW — characters are permanent, models are wardrobes
 The models change; the characters stay. Characters have ROLES and a home banner; any
