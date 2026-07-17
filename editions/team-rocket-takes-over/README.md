@@ -10,16 +10,35 @@ By [Medick](https://github.com/medick51o) and the cat · series greenlit 2026-07
 
 ---
 
-## ⚠️ SEASON STATUS: UNAIRED
+## 📺 SEASON STATUS: SEASON ONE AIRED (2026-07-17, one night)
 
-Per the house law that claims stay capped at evidence, this comes first: **as of the date
-above, zero episodes have run under this format.** Cassidy has never reviewed a line of
-work. Butch has never rung in. The twin-lane workflow, the bell, the decision queue — all of
-it is DESIGNED, none of it is yet PROVEN in this configuration. The boss himself ruled that
-this page may not claim to rival the original method until real episodes have aired and the
-shakedown has been reviewed. This section gets replaced with an honest scorecard — hits AND
-misses — once season one has actually run. Until then, everything below is a pilot order,
-not a track record.
+This section used to say UNAIRED, per the house law that claims stay capped at evidence.
+The evidence arrived. In a single overnight run the format executed **three full episodes
+plus an iteration loop** on a real production codebase (a fleet-control app with live
+hardware). The honest scorecard, hits AND misses:
+
+**HITS.** Twin-lane building ran clean across parallel builders with disjoint fences and
+zero collisions. The bench went from theoretical to blooded: **Butch rang in four times**
+(two APPROVE-WITH-NITS, two APPROVE — including an element-by-element audit of another
+model's DOM discipline), and **Cassidy rejected three times and approved three times after
+fixes** — her catches included a raw-socket-proven HTTP validation hole, a state-readback
+bug that would have silently disarmed a control, and a malformed-feed crash that would
+have frozen a desktop widget permanently. Every REJECT was re-ticketed with fix shapes,
+fixed by the original builder, and re-verified the same hour. **The line never stopped
+once** — Red-vs-Pink held under real fire. The orchestrator filed one false finding
+against a builder, caught its own error, and retracted in the open — the honesty culture
+bound the cat too. The human owner tested everything in-hand at dawn and it worked.
+
+**MISSES.** The orchestrator's own tickets once contradicted each other (an invitation to
+redesign a demo mode collided with a later "frozen" rule) — the conflict was ruled on and
+documented rather than papered over. A fourth-vendor build lane was blocked by a
+permission wall and had to be recast mid-night. One worker went idle without filing its
+report and had to be audit-gated directly. Silent-launcher and zombie-process bugs cost
+the human real minutes at dawn. All logged, all queued.
+
+Season two's format questions (does the culture hold at larger scale? does the bench stay
+sharp?) remain open — that's the standing shakedown review. But the pilot order is filled:
+this configuration is now a track record, not a design document.
 
 ---
 
