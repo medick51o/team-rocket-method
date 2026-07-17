@@ -105,7 +105,7 @@ more; then the line re-stops seconds later because settling "pink" never settled
 - The boss must never come home to a burnt token pile and a transcript of four characters
   litigating paint. If in doubt: build the safest honest version, note the assumption, keep
   moving.
-- **Sub-agents are Pokémon**, named from the spawning side's canon team: Claude-side workers
+- **Sub-agents draw canon names** from the spawning side's team: Claude-side workers
   draw from Jessie's roster (Arbok, Wobbuffet, Seviper, Mimikyu, Gourgeist, Dustox…);
   Codex-side from James's (Weezing, Inkay, Victreebel, Cacnea, Mime Jr., Carnivine,
   Morpeko…). Anonymous one-shot fodder is a **Grunt**. The name tells you whose child it is.
