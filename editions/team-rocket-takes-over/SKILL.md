@@ -22,7 +22,7 @@ discipline underneath is real; the costume department is the point.
 
 **Relationship to TRM: an official BRANCH of the Team Rocket Method.** Same universe, same
 law, new show. The original method stays intact and unbothered — this series RUNS on TRM
-law, so load it first (`TRM-FOUNDATION.md` + `MEOWTH-MANUAL.md`, project root first, then
+law, so load it first (`TRM-FOUNDATION.md` + `CAT-MANUAL.md`, project root first, then
 beside the `trm` skill). All invariants bind: builder never approves own work · claims capped
 at evidence · disagreements go UP to the boss · only the boss merges. Where this
 and the earlier seasons (`the-new-edition`, `cat-in-charge`) disagree, THIS wins.
