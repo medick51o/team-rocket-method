@@ -6,7 +6,7 @@ description: "TRM — Cat-in-Charge Edition: the Team Rocket Method with the Meo
 # /cat-in-charge — TRM: Cat-in-Charge Edition
 
 A FORK of the Team Rocket Method. All TRM law still binds — load it first:
-`TRM-FOUNDATION.md` + `MEOWTH-MANUAL.md` (project root first, then beside the `trm` skill).
+`TRM-FOUNDATION.md` + `CAT-MANUAL.md` (project root first, then beside the `trm` skill).
 Invariants unchanged: builder never approves own work · claims capped at evidence ·
 disagreements go UP to the boss · every crew message signs its color · only the boss merges.
 This edition adds the layer those documents don't carry: **the vibe.**
