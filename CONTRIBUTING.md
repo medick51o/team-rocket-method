@@ -16,7 +16,7 @@ on a bug.
 | Class | Touches | Bar |
 |---|---|---|
 | **AMENDMENT** | `TRM-FOUNDATION.md`, the law itself | High. Requires a mechanism and a repro (below). |
-| **MECHANIC** | `MEOWTH-MANUAL.md`, `skills/`, `SETUP.md`, `README.md`, `assets/`, templates | Normal. A clear reason and a working change. |
+| **MECHANIC** | `CAT-MANUAL.md`, `skills/`, `SETUP.md`, `README.md`, `assets/`, templates | Normal. A clear reason and a working change. |
 
 A typo fix is a MECHANIC. Adding a principle is an AMENDMENT. If you are unsure, open an issue and
 ask; guessing wrong costs you a round.
