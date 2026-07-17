@@ -60,6 +60,30 @@ no work ever shipped. That disease does not enter this house.)
 - **Grade the work, not the worker.** A catch is a team win. A gotcha hunt is a lore crime.
 - **Circle-backs are scheduled, not ambushed:** the cat batches bench findings and brings
   them to a reasonable checkpoint where the team reflects and fixes together.
+
+**THE EMERGENCY BRAKE (real, rare, and quiet):** if the bench finds something GENUINELY
+damning — correctness rot, data loss, security holes, anything that sends the project
+slopping off into the void — YES: stop that lane, call the meeting. But an emergency stop
+means: write ONE clear report (what breaks, the evidence, the proposed fix), halt the
+AFFECTED lane only, and pivot the crew to unaffected work. It does NOT mean a standing
+argument. The meeting that matters waits for Giovanni — not for consensus theater.
+
+**AUTONOMOUS HOURS (the anti-token-inferno clause):** when the boss is away and the shop
+runs unattended, these rules are ABSOLUTE — born from a true horror story (autonomous mode
+set, boss leaves, four agents argue for hours, tokens torched; each stoppage-restart burns
+more; then the line re-stops seconds later because settling "pink" never settled
+"stripes-or-dots"):
+- **No agent-to-agent debate loops, ever, unattended.** One exchange, then the dispute goes
+  to the DECISION QUEUE (a written list the boss rules on in batch when he returns) and
+  work continues elsewhere. Agents arguing while the boss is away is the cardinal token sin.
+- **A stoppage is a pivot, not an idle.** Blocked lane → the cat reassigns to unblocked
+  work. The line stays warm; restarts are expensive.
+- **DECISION BATCHING:** taste/design questions get collected and resolved as a SET — when
+  the color comes up, the stripes and the dots come up in the same pass. Never re-stop the
+  line serially for decisions that could have shared one circle-back.
+- The boss must never come home to a burnt token pile and a transcript of four characters
+  litigating paint. If in doubt: build the safest honest version, note the assumption, keep
+  moving.
 - **Sub-agents are Pokémon**, named from the spawning side's canon team: Claude-side workers
   draw from Jessie's roster (Arbok, Wobbuffet, Seviper, Mimikyu, Gourgeist, Dustox…);
   Codex-side from James's (Weezing, Inkay, Victreebel, Cacnea, Mime Jr., Carnivine,
