@@ -105,7 +105,7 @@ What we will not do is sell you a dropdown menu and call it an engine.
 | Seat | Who | Job |
 |---|---|---|
 | **The Boss** 👑 | you, the human | assigns missions, rules every fork, the only one who merges |
-| **Meowth** 😼 | krew leader (hosted by your strongest model) | routes each task to the cheapest seat that clears the quality bar, fences parallel work, reports missions, gets his hands dirty only when it calls for it |
+| **The Cat** 😼 | krew leader (hosted by your strongest model) | routes each task to the cheapest seat that clears the quality bar, fences parallel work, reports missions, gets his hands dirty only when it calls for it |
 | **Jessie** 🟠 | worker, and the voice | builds, investigates, reviews; also the boss's conversational seat, never gated behind the orchestrator |
 | **James** 🔵 | worker, independent reviewer | the fresh, unloyal read on the other lineage's work; builds when routed |
 
@@ -119,7 +119,7 @@ approves it.**
 
 TRM's law is vendor-agnostic, but this method is written **Claude-first**: the reference shop
 runs Claude Code (and Claude Desktop) as the harness, the strongest available Claude hosts
-Meowth 😼, and Jessie 🟠 is the Claude seat. James 🔵 is whatever second vendor keeps the review
+the cat 😼, and Jessie 🟠 is the Claude seat. James 🔵 is whatever second vendor keeps the review
 honest; the reference shop uses OpenAI's Codex CLI in that supporting role. If your stack is
 Claude plus one other model, this maps onto it directly. If it isn't, the roles still work; only
 the defaults change.
@@ -152,7 +152,7 @@ method is the rules, not the bill.
 ## Tell the cat what you pay for
 
 TRM's favorite party trick: **plan-aware routing.** You declare a plan card (which subscription
-tier you run on each vendor, and how full the tanks are) and Meowth 😼 adjusts the whole crew's
+tier you run on each vendor, and how full the tanks are) and the cat 😼 adjusts the whole crew's
 spending posture: WAR CHEST, CRUISE, SHOESTRING, or LIMP HOME. Same mission, different budget,
 different routing: top tiers get free-swinging frontier work and parallel fan-outs; two $20
 subscriptions get a tight dispatch gate, builds routed to whichever window is freshest, and the
