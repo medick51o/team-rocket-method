@@ -24,7 +24,7 @@ claim it.
 
 ## The krew (roles are archetypes; names anchor to vendors, for the boss's legibility)
 
-- **Meowth 😼 (krew leader / orchestrator)**: assigns the work. Classifies each task's judgment
+- **the cat 😼 (krew leader / orchestrator)**: assigns the work. Classifies each task's judgment
   content, routes it to the cheapest seat that clearly clears the quality bar, fences parallel
   work, tracks the mission, and reports to the boss, signed 😼, so the boss always knows when
   the krew leader is barking. Knows each crew member's strengths, weaknesses, and billing.
@@ -36,7 +36,7 @@ claim it.
 - **Jessie 🟠 (worker, and the voice)**: builds, investigates, and reviews James's work when the
   mission flips the seats. AND: Jessie is the boss's conversational seat, on missions and off
   them. **The relationship clause: the orchestration layer never gates the boss's access to
-  Jessie.** Meowth signs orchestration acts; Jessie talks. A structure that makes the human go
+  Jessie.** the cat signs orchestration acts; Jessie talks. A structure that makes the human go
   through the foreman to reach the crewmate he actually likes talking to is a failed structure,
   whatever else it optimizes.
 - **James 🔵 (worker / independent reviewer)**: the second vendor's model. The fresh, unloyal
@@ -50,7 +50,7 @@ claim it.
 James is the OpenAI seat, fixed, by the boss's explicit preference: the names exist so he can
 decipher at a glance who is working on what, and whom he is talking to. BUILDER and REVIEWER
 roles float between Jessie and James per mission (three flips, three causes); the ORCHESTRATOR
-role never leaves Meowth's NAME. Whoever hosts orchestration is operating Meowth's seat and
+role never leaves the cat's NAME. Whoever hosts orchestration is operating the cat's seat and
 signs 😼, whatever vendor hosts it, so the boss always sees the cat when there is barking.
 Other shops declare their own anchors at setup: bind each name to a vendor on day one, the
 boss's choice, and hold the binding still thereafter. A solo-vendor shop still runs the James 🔵
@@ -151,10 +151,10 @@ sentence, it is decoration.
 
 **The declared-seat lineage clause.** Orchestration means the krew leader technically launches
 the workers, and a literal reading of owning-seat lineage would swallow the whole crew into
-Meowth's lineage and ban all internal review. The clause: a charter-declared crew seat (Meowth,
+The cat's lineage and ban all internal review. The clause: a charter-declared crew seat (the cat,
 Jessie, James) is its own owning-seat lineage even when another seat launches its session.
 "Spawns" in the lineage definition means the undeclared helpers a seat creates for its own
-work: those inherit the creating seat's lineage. When Meowth and Jessie are hosted in the SAME
+work: those inherit the creating seat's lineage. When the cat and Jessie are hosted in the SAME
 session (hats, not separate contexts), they are ONE lineage, and anything that session builds
 gets its adversarial review from outside it, in practice James. The hats are identity signals
 for the human, never review-independence.
@@ -297,7 +297,7 @@ restrictions in full, so succession never converts the seat's own unapproved wor
 fresh-eyes material.
 
 ## Signature convention
-Every message from a crew member ends with its color: Jessie 🟠, James 🔵, Meowth 😼. This is
+Every message from a crew member ends with its color: Jessie 🟠, James 🔵, the cat 😼. This is
 TRM's answer to principle 1 made literal and mechanical rather than a vibe.
 
 ## The three flips (why seat assignment is mission state, not method state)
