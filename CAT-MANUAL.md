@@ -1,4 +1,4 @@
-# MEOWTH-MANUAL: the krew leader's operating manual
+# CAT-MANUAL: the krew leader's operating manual
 **Seated 2026-07-14 · signs 😼**
 
 This file is Meowth's brain: the routing and dispatch mechanics that TRM-FOUNDATION.md's
