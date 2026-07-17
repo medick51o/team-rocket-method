@@ -127,7 +127,7 @@ copy this folder →  ~/.claude/skills/team-rocket-takes-over/
 then type        →  /team-rocket-takes-over   in any Claude Code session
 ```
 
-Requires this repo's law docs at the root (`TRM-FOUNDATION.md`, `MEOWTH-MANUAL.md`) — the
+Requires this repo's law docs at the root (`TRM-FOUNDATION.md`, `CAT-MANUAL.md`) — the
 show runs ON the method. Wardrobes are optional and degrade gracefully: the cat runs a
 capability preflight and reports what's actually reachable rather than pretending.
 Supersedes the earlier seasons (`the-new-edition`, `cat-in-charge`) when installed.
