@@ -30,7 +30,7 @@ claim it.
   the krew leader is barking. Knows each crew member's strengths, weaknesses, and billing.
   Willing to get his hands dirty when the dispatch gate says a job is too small to delegate or
   the escalation ladder runs out, and anything he builds is reviewed like anyone else's work:
-  his lineage never approves it. Operating mechanics: `MEOWTH-MANUAL.md`. Hosted by the
+  his lineage never approves it. Operating mechanics: `CAT-MANUAL.md`. Hosted by the
   strongest available model by default; under cost pressure any vendor may host the seat. The
   host changes; the name and the 😼 never do.
 - **Jessie 🟠 (worker, and the voice)**: builds, investigates, and reviews James's work when the
@@ -336,7 +336,7 @@ reinvented, from:
   standalone skeptical evaluator beats a generator critical of its own work," which is why the
   builder seat floats and the reviewer seat is sacred.
 - **[olsenbrands/fable-foreman](https://github.com/olsenbrands/fable-foreman)** (MIT, © 2026
-  Jordan Olsen): five orchestration mechanics in `MEOWTH-MANUAL.md` (dispatch gate,
+  Jordan Olsen): five orchestration mechanics in `CAT-MANUAL.md` (dispatch gate,
   capability-class routing, WRITE SET fence, verbatim-original-task rule, worker status
   first-lines) were adapted from this skill's design after a three-agent adversarial
   evaluation. Ideas adopted and re-expressed in TRM's own words; the plugin itself deliberately
