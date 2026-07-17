@@ -73,9 +73,14 @@ runs unattended, these rules are ABSOLUTE — born from a true horror story (aut
 set, boss leaves, four agents argue for hours, tokens torched; each stoppage-restart burns
 more; then the line re-stops seconds later because settling "pink" never settled
 "stripes-or-dots"):
-- **No agent-to-agent debate loops, ever, unattended.** One exchange, then the dispute goes
-  to the DECISION QUEUE (a written list the boss rules on in batch when he returns) and
-  work continues elsewhere. Agents arguing while the boss is away is the cardinal token sin.
+- **Debates are allowed — with a BELL.** The characters may hash things out among
+  themselves unattended (a short, honest debate often resolves what a queue would just
+  delay). But every debate has a HARD CUTOFF: two rounds each (the TRM cap's spirit), then
+  the bell rings. Resolved → proceed. Unresolved → the dispute goes to the DECISION QUEUE
+  (a written list the boss rules on in batch when he returns) and everyone goes BACK TO
+  WORK — on the disputed lane if it can proceed on the safest honest reading, or pivoted
+  to other work if it can't. What is BANNED is the loop: re-litigating past the bell is
+  the cardinal token sin. (Cutoff tunable during the shakedown.)
 - **A stoppage is a pivot, not an idle.** Blocked lane → the cat reassigns to unblocked
   work. The line stays warm; restarts are expensive.
 - **DECISION BATCHING:** taste/design questions get collected and resolved as a SET — when
