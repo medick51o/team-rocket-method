@@ -1,13 +1,3 @@
-<!-- TRM-FAMILY · SHOW v1.0 · 2026-07-21 · owner: TEAM ROCKET TAKES OVER (branch) · ADDS on top of SPINE+CREW -->
-<!-- CHANGELOG · 2026-07-21 Gate-3 bench-correction (staged, pre-deploy): BL4 closed the screen-time
-     firewall seam (real cast-map seat signs every verdict in its true lineage; "fronting" is
-     puppeteered narration only, no verdict/signature/lineage claim); M6 rewrote the ten vibe laws as
-     presentation-only constraints (no law may create a dispatch/edit/screenshot req/deadline/deploy/
-     background process/completion claim) and changed "engagement IS the quality control" → "engagement
-     supports attention; not evidence or a gate"; M4 raised the CREW floor to >=1.1 and made the receipt
-     interpolate + print last. Firewall's three core seams unchanged; invariant block UNCHANGED. -->
-> **STAGED — not deployed; the boss deploys.** Refactor artifact in `docs/trm-family-staged/`.
-
 # SHOW — what TEAM ROCKET TAKES OVER adds on top of SPINE + CREW
 
 **Version line (machine-readable):** `TRTO/SHOW v1.0 (2026-07-21)`

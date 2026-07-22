@@ -1,18 +1,3 @@
-<!-- TRM-FAMILY · CREW v1.1 · 2026-07-21 · owner: TEAM ROCKET METHOD (core) · ADDS on top of SPINE -->
-<!-- CHANGELOG · 2026-07-21 Gate-3 bench-correction (staged, pre-deploy): BL3 reduced §3 to
-     casting-only (removed restated write-set/right-size/independence mechanics; "Claude lane/Codex
-     lane" → "Jessie's lane/James's lane, whatever vendors the cast-map bound"); BL2 pointed §3's
-     review pairing to SPINE's TWO legal paths (bench as a preference, not an absolute "different
-     vendor" test); M7 fixed the §1 degrade tell (builder's-vendor-color, not "same-color-on-both");
-     M3/M5/BL5 aligned §8 (declaration≠detection, reachability preflight first, receipt LAST,
-     repointed from Part IV to the preflight section). Version stays v1.1; invariant block UNCHANGED. -->
-<!-- CHANGELOG · 2026-07-21 Gate-3 SIGN-OFF batched nit pass: §1 Butch/Cassidy role cells + seat column
-     now state the boss-launched-fresh-seat exception explicitly (not just prose); §3 "another vendor's
-     account" → "different effective-model vendor + lineage" (Cassidy PARTIAL); §8 cast-map pick-lists
-     carry the same solo fallback; §5 rosters "Claude-side/Codex-side" → "Jessie-side/James-side"
-     (roster follows the character, not the vendor brand — Grok NEW-2). Invariant block UNCHANGED. -->
-> **STAGED — not deployed; the boss deploys.** Refactor artifact in `docs/trm-family-staged/`.
-
 # CREW — what the Team Rocket Method ADDS on top of SPINE
 
 **Version line (machine-readable):** `TRM/CREW v1.1 (2026-07-21)`

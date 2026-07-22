@@ -2,13 +2,6 @@
 name: team-rocket-takes-over
 description: "TRM: TEAM ROCKET TAKES OVER! — the official branch of the Team Rocket Method: an agentic AI playground, multi-agent dress-up tool, and talking-cat simulator. The villains hijacked the dev shop: permanent characters (Jessie 🟠 · James 🔵 · Butch 🔴 · Cassidy 🩷 · the cat 😼), models as wardrobes, laws written in lore — built to keep a human genuinely ENGAGED with agentic AI orchestration. SPINE + CREW run underneath; SHOW is the only delta. Supersedes the-new-edition and cat-in-charge when invoked."
 ---
-<!-- STAGED rewrite of team-rocket-takes-over/SKILL.md — not deployed; the boss deploys. -->
-<!-- CHANGELOG · 2026-07-21 Gate-3 bench-correction (staged, pre-deploy): BL5 reordered On-invocation
-     so the READY receipt prints LAST — reachability & effective-model preflight FIRST, cast-map from
-     it, receipt with independence status last; "initialized — review unavailable" when no legal
-     reviewer. M5 repointed reachability from Part IV to the preflight section. M4 raised the CREW floor
-     to >=1.1 and made the receipt interpolate parsed versions. Invariant block UNCHANGED. -->
-
 # TRM: TEAM ROCKET TAKES OVER!
 ### a Team Rocket Method series · the agentic AI playground
 ### a multi-agent dress-up tool & talking cat simulator · the villains hijacked the show

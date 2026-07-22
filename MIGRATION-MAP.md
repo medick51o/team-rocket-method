@@ -1,11 +1,3 @@
-<!-- TRM-FAMILY · MIGRATION-MAP v1.0 · 2026-07-21 -->
-<!-- CHANGELOG · 2026-07-21 Gate-3 bench-correction (staged, pre-deploy): regenerated against the FINAL
-     files per M5 — corrected the CAT-MANUAL "substance kept" rows (now restored at full density, BL1),
-     the FIELD-NOTES "intact" claim (exact strings now truly restored), and the false SETUP.md "still
-     referenced" line (dropped — no such pointer or file); added the new SPINE destinations (Part VI
-     reachability preflight, M3; brand-neutral review-by-fit, M2) and a POST-BUILD CORRECTION section. -->
-> **STAGED — not deployed; the boss deploys.** Audit artifact in `docs/trm-family-staged/`.
-
 # MIGRATION MAP — every source section, and where it landed
 
 Purpose: a section-by-section trace of the 6 source files into the new split, so the cat and the

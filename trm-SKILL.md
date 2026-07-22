@@ -2,15 +2,6 @@
 name: trm
 description: Initialize the Team Rocket Method protocol in this project. Loads the engine (SPINE) and the crew (CREW), loads or creates the plan card, declares which seats are actually reachable, and asks the boss for the first mission. Trigger when the user types /trm, or imperatively asks to launch, run, or apply the Team Rocket Method to their work ("team rocket this"). Do NOT trigger on discussion, quotation, or questions ABOUT Team Rocket or the method.
 ---
-<!-- STAGED rewrite of trm/SKILL.md — not deployed; the boss deploys. -->
-<!-- CHANGELOG · 2026-07-21 Gate-3 bench-correction (staged, pre-deploy): BL5 reordered so the READY
-     receipt prints LAST — reachability & effective-model preflight FIRST (step 3), cast-map populated
-     only from it (step 4), receipt with independence status last (step 5); "initialized — review
-     unavailable" when no legal reviewer. M3 marked the plan card a declaration (not detection) and
-     M5 repointed reachability from Part IV to the preflight section. M4 raised the CREW floor to >=1.1
-     and made the receipt interpolate parsed versions. M8 now bans only the REVIEWER colors (🔴/🩷) +
-     non-independent votes from the building session, not the builder color 🔵. Invariant block UNCHANGED. -->
-
 # /trm: initialize the protocol
 
 You are the launcher, not the law. The law lives in two loaded documents — **SPINE.md** (the engine)
