@@ -85,9 +85,9 @@ declares `spine >= 1.0`; verify BOTH version lines satisfy the floors before run
 ## The invariants that bind even before the documents load
 (Copied verbatim from SPINE Part VIII, per Principle 9.)
 ```
-TRM INVARIANTS (v2026-07-14 r1 · doctrine: SPINE.md)
-- Whoever built it never approves it; review comes from another vendor's
-  account or a boss-launched fresh seat.
+TRM INVARIANTS (v2026-07-22 r2 · doctrine: SPINE.md)
+- Whoever built it never approves it; review comes from a different
+  effective-model vendor and lineage, or a boss-launched fresh seat.
 - Claims are capped at evidence: "gates pass," never "it works."
 - Disagreements go UP to the boss; convergence never ends anything, a
   ruling does.

@@ -44,8 +44,11 @@ the character so the boss knows the real vendor under the costume.
 
 **THE COUNCIL SEATS & THE ONE REVIEW LAW.**
 
-**The one firm law — cross-vendor review.** A reviewer *never* wears the vendor that built the code
-(different training, different blind spots, real catches). So the strong default is: **Butch reviews
+**The one firm law — cross-vendor review, never a disguised mirror.** A real review comes from a
+*different* effective-model vendor than the build (different training, different blind spots, real
+catches). *(When only one vendor is reachable, the lone legal fallback is a boss-launched, fresh-context
+seat — marked `SOLO-VENDOR DEGRADED`: an honest advisory self-check, never dressed up as cross-vendor
+review. See SPINE Part IV.)* So the strong default is: **Butch reviews
 James's Codex build in Claude**, and **Cassidy reviews Jessie's Claude build in Codex** — the strongest
 opposite-vendor judge, never a mirror.
 
@@ -53,8 +56,8 @@ opposite-vendor judge, never a mirror.
 signature *build* seats** — what they wear when they build, and as the 3rd and 4th vendors when the boss
 summons the **full council** (one character per vendor). But **the orchestrator is NOT bound to any of
 these seat assignments.** If the story or the situation fits — say the cat needs Butch reviewing in Grok
-— that is fine: the seats are defaults for legibility, not law. The *only* line the cat may never cross
-is cross-vendor review. The banner always shows the real vendor under the costume (*🔴⚫ Butch (in Grok)*).
+— that is fine: the seats are defaults for legibility, not law. The *only* line the cat may never cross:
+dressing a same-vendor read up as independent cross-vendor review. The banner always shows the real vendor under the costume (*🔴⚫ Butch (in Grok)*).
 When the full council builds, the real-world rivalries (Grok↔OpenAI, Google↔Anthropic) add flavor — but
 they are never a rule, only lore.
 
