@@ -42,7 +42,8 @@ TRM runs a **permanent cast** — the models are costumes, the roles never move:
 | 😼 | **The Cat** | orchestrates — reads each job, routes it to the right model, fences the builders apart, and *teaches you why* as it goes |
 | 🟠 | **Jessie** | lead builder, and your conversational seat |
 | 🔵 | **James** | second builder — the independent, unloyal read when the seats flip |
-| 🔴 🩷 | **Butch / Cassidy** | the review bench — each hunts a builder's work from a *different vendor* |
+| 🔴 | **Butch** | reviews James's code — cross-vendor, never James's own vendor (default **Claude**); his signature *build* seat is **Grok ⚫** |
+| 🩷 | **Cassidy** | reviews Jessie's code — cross-vendor (default **Codex**); her signature *build* seat is **Gemini 🟢** |
 | 👑 | **The Boss** | you — assign the mission, rule every fork, merge |
 
 What that buys you:
@@ -63,7 +64,7 @@ The cat routes by **strength, not loyalty.** The default arsenal:
 | ⚫ **Grok** | fearless one-shot visual work — UI, skins, concept pages |
 | 🟢 **Gemini** | budget builds, image generation, overflow capacity, and an independent 4th vote |
 
-Any character can wear any model — the cat picks the costume by the job, and the banner always shows the real vendor under it (*🟠🟢 = a Claude brain on the Gemini seat*).
+Any character can wear any model — **these seats are strong defaults, not law.** The cat casts by the job (the *one* rule it never breaks: a reviewer is never the builder's own vendor), and the banner always shows the real vendor under it (*🟠🟢 = a Claude brain on the Gemini seat*).
 
 ---
 
