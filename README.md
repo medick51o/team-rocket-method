@@ -20,11 +20,13 @@ The method is split so the *discipline* lives in one place and the *personality*
 
 ### The three tiers — thinnest to fullest
 
-| Tier | Loads | What it is |
-|---|---|---|
-| **Anderson's Dispatch Deck** — [dispatch-SKILL.md](dispatch-SKILL.md) | SPINE | the engine, straight-faced: model names, no cast |
-| **Team Rocket Method** — [trm-SKILL.md](trm-SKILL.md) | SPINE + CREW | the disciplined crew |
-| **Team Rocket Takes Over** — [trto-SKILL.md](trto-SKILL.md) | SPINE + CREW + SHOW | the full playground |
+Each tier is its own repo — same engine, different amount of personality. **Go try the others:**
+
+| Tier | Repo | Loads | What it is |
+|---|---|---|---|
+| ⚫ **Anderson's Dispatch Deck** | **[→ andersons-dispatch-deck](https://github.com/medick51o/andersons-dispatch-deck)** | SPINE | heavy multi-model orchestration, straight-faced — model names, no cast |
+| 🟠 **Team Rocket Method** *(you're here)* | this repo | SPINE + CREW | the disciplined crew — named seats, rival cross-reviews |
+| 🚀 **Team Rocket Takes Over** | **[→ team-rocket-takes-over](https://github.com/medick51o/team-rocket-takes-over)** | SPINE + CREW + SHOW | the full agentic-AI playground — cast, cat, episodes |
 
 Same spine underneath — each tier just adds a layer. **[MIGRATION-MAP.md](MIGRATION-MAP.md)** traces how the
 original single-file editions were split into this, section by section (nothing dropped).
