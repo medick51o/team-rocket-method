@@ -33,6 +33,40 @@ original single-file editions were split into this, section by section (nothing 
 
 ---
 
+## What the crew is capable of
+
+TRM runs a **permanent cast** — the models are costumes, the roles never move:
+
+| | Seat | What it does |
+|---|---|---|
+| 😼 | **The Cat** | orchestrates — reads each job, routes it to the right model, fences the builders apart, and *teaches you why* as it goes |
+| 🟠 | **Jessie** | lead builder, and your conversational seat |
+| 🔵 | **James** | second builder — the independent, unloyal read when the seats flip |
+| 🔴 🩷 | **Butch / Cassidy** | the review bench — each hunts a builder's work from a *different vendor* |
+| 👑 | **The Boss** | you — assign the mission, rule every fork, merge |
+
+What that buys you:
+
+- **Parallel builds, fenced** — two builders work at once on *disjoint files*, never the same file in one pass.
+- **Adversarial cross-vendor review** — a reviewer never shares the builder's vendor (different training, different blind spots, real catches); a review laundered through the builder's own lineage is declared invalid.
+- **Gates before "done"** — claims capped at evidence: *"gates pass,"* never *"it works."* The human is the final gate and the only one who merges.
+- **A mentor while it works** — the cat drops a one-line *why-this-route* at each real decision, so you get sharper at orchestration every session.
+
+## Why this model, not that one
+
+The cat routes by **strength, not loyalty.** The default arsenal:
+
+| Model | Reach for it when you need… |
+|---|---|
+| 🟠 **Claude** | deepest reasoning, architecture, honest judgment — design, specs, root-cause, reviewing others |
+| 🔵 **Codex** | precise bounded builds, and the sharpest code review (it *proves* bugs, cites sources) |
+| ⚫ **Grok** | fearless one-shot visual work — UI, skins, concept pages |
+| 🟢 **Gemini** | budget builds, image generation, overflow capacity, and an independent 4th vote |
+
+Any character can wear any model — the cat picks the costume by the job, and the banner always shows the real vendor under it (*🟠🟢 = a Claude brain on the Gemini seat*).
+
+---
+
 ## Legacy
 
 The original single-file edition — the `TRM-FOUNDATION` + manual form the method grew from — is archived
