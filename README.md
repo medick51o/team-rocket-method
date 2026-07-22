@@ -30,8 +30,7 @@ Each tier is its own repo — same engine, different amount of personality. **Go
 | 🟠 **Team Rocket Method** *(you're here)* | this repo | SPINE + CREW | the disciplined crew — named seats, rival cross-reviews |
 | 🚀 **Team Rocket Takes Over** | **[→ team-rocket-takes-over](https://github.com/medick51o/team-rocket-takes-over)** | SPINE + CREW + SHOW | the full agentic-AI playground — cast, cat, episodes |
 
-Same spine underneath — each tier just adds a layer. **[MIGRATION-MAP.md](MIGRATION-MAP.md)** traces how the
-original single-file editions were split into this, section by section (nothing dropped).
+Same spine underneath — each tier just adds a layer.
 
 ---
 
