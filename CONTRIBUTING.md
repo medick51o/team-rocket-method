@@ -62,7 +62,7 @@ his lineage.** Principle 3 applies to the person who wrote principle 3. In pract
 
 - A contributor's amendment is reviewed by the maintainer's crew.
 - **The maintainer's own amendments are reviewed from outside his lineage**, which under the
-  foundation means a seat on another vendor's account or one the boss launched fresh. That is the
+  foundation means a seat on a different effective-model vendor and lineage, or one the boss launched fresh. That is the
   floor, and it is what keeps the project honest before anyone else shows up. (No bootstrap
   deadlock: a solo maintainer can still ship, and the reviewer's report is attached to the PR so
   you can check the review actually happened and read what it said.)
