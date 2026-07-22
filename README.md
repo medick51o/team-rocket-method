@@ -70,6 +70,12 @@ Any character can wear any model — **these seats are strong defaults, not law.
 
 ---
 
+## The Council — the whole crew, one hard question
+
+When the stakes justify it, the boss can convene **the council**: the cat brings the whole crew in at once — **every reachable vendor, one per seat** — each giving an independent, *signed* read on the same question, each on a distinct lens. Four vendors, four sets of blind spots, so the council catches what any single seat would miss. The cat synthesizes best-of-breed, **names every disagreement**, caps the debate at two rounds, and hands you the verdict. It's the **special move** — adversarial review at full width — not the everyday default. **It never auto-fires:** a trivial ask stays a trivial ask (one seat, no token-eating dream team). *(Same engine move across the family: a plain panel in the [Dispatch Deck](https://github.com/medick51o/andersons-dispatch-deck), a full puppeteered set-piece in [Team Rocket Takes Over](https://github.com/medick51o/team-rocket-takes-over).)*
+
+---
+
 ## Legacy
 
 The original single-file edition — the `TRM-FOUNDATION` + manual form the method grew from — is archived
