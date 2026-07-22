@@ -6,6 +6,8 @@ rules every fork. The models argue. The boss decides.**
 
 By [Medick](https://github.com/medick51o). Conceived 2026-07-11. **PRIVATE — working concept.**
 
+> *The name's a wink: an unnamed parody of a certain childhood cartoon's ever-scheming villain trio (the one with the pocket-sized monsters). We'll never print the show's name — if you know, you know.* 😏
+
 ---
 
 ## The family — one engine, three tiers
