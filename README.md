@@ -24,7 +24,7 @@ Each tier is its own repo — same engine, different amount of personality. **Go
 
 | Tier | Repo | Loads | What it is |
 |---|---|---|---|
-| ⚫ **Anderson's Dispatch Deck** | **[→ andersons-dispatch-deck](https://github.com/medick51o/andersons-dispatch-deck)** | SPINE | heavy multi-model orchestration, straight-faced — model names, no cast |
+| 🟡 **Anderson's Dispatch Deck** | **[→ andersons-dispatch-deck](https://github.com/medick51o/andersons-dispatch-deck)** | SPINE | heavy multi-model orchestration, straight-faced — model names, no cast |
 | 🟠 **Team Rocket Method** *(you're here)* | this repo | SPINE + CREW | the disciplined crew — named seats, rival cross-reviews |
 | 🚀 **Team Rocket Takes Over** | **[→ team-rocket-takes-over](https://github.com/medick51o/team-rocket-takes-over)** | SPINE + CREW + SHOW | the full agentic-AI playground — cast, cat, episodes |
 
