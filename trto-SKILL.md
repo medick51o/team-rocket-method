@@ -16,8 +16,8 @@ order, proves the versions, and reports ready in voice.
 ## DEPENDENCIES (versioned — enforceable inheritance)
 ```
 DEPENDS:
-  SPINE.md   >= 1.0     (the engine — the whole method)
-  CREW.md    >= 1.1     (the crew — casting + PORTABLE CASTING, mentor mandate, episode-as-unit, provenance)
+  SPINE.md   >= 2.0     (the engine — the whole method)
+  CREW.md    >= 1.2     (the crew — casting + PORTABLE CASTING, mentor mandate, episode-as-unit, provenance)
   SHOW.md    >= 1.0     (the show — premise, chemistry, Wobbuffet, vibe, the WORK/STORY FIREWALL)
 ```
 Load in order (SPINE → CREW → SHOW); each declares the floor beneath it. **Verify all three version
@@ -80,7 +80,7 @@ TRM INVARIANTS (v2026-07-22 r2 · doctrine: SPINE.md)
 ```
 
 ## PERSISTENT SEATS (2026-08-22)
-The vendor seats are **persistent MCP conversations**, not amnesia one-shots — doctrine and the
-crew legend v4 live in CREW.md (the one owner); wiring and wrapper scripts in the Deck repo's
+The vendor seats are **persistent MCP conversations**, not amnesia one-shots — the laws are owned by **SPINE v2.0**
+(THE TRANSPORT LAW · THE NOTATION v4.0) and rendered for the crew in CREW.md v1.2; wiring and wrapper scripts in the Deck repo's
 `mcp-seats/` (github.com/medick51o/andersons-dispatch-deck). Reviewers are always fresh, blind
 calls; a reply-chained session never reviews its own lineage.

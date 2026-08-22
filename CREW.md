@@ -134,14 +134,11 @@ repo's `mcp-seats/` folder (github.com/medick51o/andersons-dispatch-deck — wra
 codeword acceptance test) (Codex has MCP built in — one command; Grok and Gemini/Antigravity use
 the bundled stdlib wrapper scripts, which also bake in the headless croak-fixes: 60-min timeout +
 `always_approve` for build tickets). *(Ours: `wmw-codex` · `wmw-grok` · `wmw-gemini` — verified once at install, 2026-08-22;
-the preflight re-checks every session, per SPINE's transport law #4.)* Two laws govern the transport, and both are old laws wearing new tools:
-- **Reviewers are ALWAYS fresh calls.** A new start-tool call remembers nothing — that blindness
-  is exactly what Butch and Cassidy require. Never brief a reviewer through a session that saw the
-  build (the anchoring law, mechanized).
-- **A reply-chain stays in its owning-seat lineage forever.** Continuing a session is the same seat
-  talking; it can never be dressed up as the independent reviewer of work its thread touched.
-- One-shot CLI dispatches (`grok -p`, `codex exec`, `agy -p`) remain legal fallback; the persistent
-  seats are the default transport.
+the preflight re-checks every session, per SPINE's transport law #4.)* The laws that govern the transport are **owned by SPINE v2.0 (THE TRANSPORT LAW)** — read them
+there, not here. In crew terms: a reviewer is always a *fresh* call (blind, as Butch and Cassidy
+require) **and** wears a different vendor than the builder, or is boss-launched; a reply-chained
+session is the same seat still talking, so it can never be cast as the independent reviewer of
+work its own thread touched. One-shot CLI dispatches remain the legal fallback lane.
 
 **The relationship clause (CREW-owned; a real structural rule, not flavor).** Jessie 🟠 is the
 boss's conversational seat, on missions and off them. **The orchestration layer never gates the

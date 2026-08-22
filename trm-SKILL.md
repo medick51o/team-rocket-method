@@ -18,11 +18,11 @@ declared SOLO mode, not a costume.
 ## DEPENDENCIES (versioned — enforceable inheritance)
 ```
 DEPENDS:
-  SPINE.md   >= 1.0     (the method engine — everything the crew DOES)
-  CREW.md    >= 1.1     (the cast + casting law + mentor mandate + PORTABLE CASTING — what TRM ADDS)
+  SPINE.md   >= 2.0     (the method engine — everything the crew DOES)
+  CREW.md    >= 1.2     (the cast + casting law + mentor mandate + PORTABLE CASTING — what TRM ADDS)
 ```
 This tier loads **SPINE + CREW** — NOT SHOW (that's the `team-rocket-takes-over` branch). CREW
-declares `spine >= 1.0`; verify BOTH version lines satisfy the floors before running.
+declares `spine >= 2.0`; verify BOTH version lines satisfy the floors before running.
 
 ## Steps
 
@@ -96,7 +96,7 @@ TRM INVARIANTS (v2026-07-22 r2 · doctrine: SPINE.md)
 ```
 
 ## PERSISTENT SEATS (2026-08-22)
-The vendor seats are **persistent MCP conversations**, not amnesia one-shots — doctrine and the
-crew legend v4 live in CREW.md (the one owner); wiring and wrapper scripts in the Deck repo's
+The vendor seats are **persistent MCP conversations**, not amnesia one-shots — the laws are owned by **SPINE v2.0**
+(THE TRANSPORT LAW · THE NOTATION v4.0) and rendered for the crew in CREW.md v1.2; wiring and wrapper scripts in the Deck repo's
 `mcp-seats/` (github.com/medick51o/andersons-dispatch-deck). Reviewers are always fresh, blind
 calls; a reply-chained session never reviews its own lineage.

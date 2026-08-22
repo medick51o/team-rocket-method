@@ -75,10 +75,12 @@ The crew's vendor seats no longer have to be amnesia one-shots. Any CLI you actu
 (Codex / Grok / Gemini — vendors are suggestions, never requirements) can be registered into
 Claude Code as a **persistent MCP seat**, opt-in and reversible with one command: brief a seat, get a session id back,
 continue that exact conversation later with full context. Reviewers are still ALWAYS fresh calls
-(fresh = blind, which is what independent review requires); a reply-chained session stays in its
+(fresh = blind, which independent review requires — though blind alone is *necessary, not
+sufficient*: the reviewer also needs a different effective-model vendor than the build, or to
+be human-launched); a reply-chained session stays in its
 owning-seat lineage forever. Wiring, wrapper scripts, and the acceptance test:
 [`mcp-seats/`](https://github.com/medick51o/andersons-dispatch-deck/tree/main/mcp-seats) in the
-Anderson's Dispatch Deck repo. Doctrine lives in [CREW.md](CREW.md).
+Anderson's Dispatch Deck repo. Doctrine is owned by [SPINE.md](SPINE.md) v2.0 (THE TRANSPORT LAW) and rendered for the crew in [CREW.md](CREW.md).
 
 ## The crew legend — v4 at a glance (full version in [CREW.md](CREW.md))
 
