@@ -42,6 +42,24 @@ codex = blue · **grok = black ⚫** · **Gemini = green 🟢** (the household-n
 character color then banner: *"🩷⚫ Cassidy (in grok) — two findings."* The banner ALWAYS rides beside
 the character so the boss knows the real vendor under the costume.
 
+**THE CREW LEGEND — v4 (boss-adopted 2026-08-22; the Deck's legend translated into crew colors).**
+Seat first, act second. A line reads: *🩷⚫ Cassidy (in grok) 📝 two findings.*
+- **The conductor's ➤ baton:** the orchestrator's banner wears ➤ after the host's dot — *😼🟠➤*
+  when Claude hosts the cat (the plain Deck renders it *🟡➤*). Spot the conductor at a glance, any tier.
+- **Acts:** 🔨 building · **📝 reviewing** — in crew tiers reviewing stays 📝, because **🔴 is
+  Butch's jersey** here; the Deck's red-dot-reviewing suffix is Deck-only, or Butch would look
+  permanently mid-review · **⛔ rejected / blocked / needs-boss** (never a red mark for this —
+  rejection and Butch must never look alike).
+- **Council:** 🌈👥👥 — every color, a crowd. A council is a special move and asks first.
+- **States:** 🚩 finding raised (flagged, not fatal) · 🚧 lane closed, detour in progress ·
+  🧪 gates running · 🩺 diagnosing (doctor-first) · 🕵️ adversary loose · 🏁 boss-validated (top
+  rung, outranks "done") · 🚢 shipped · 🪦 retired/parked · 🟤 quiet hold (watchers armed).
+- **Boss combos (👑 is the boss's signature in crew tiers):** 👑🏁 in-hand validation · 👑⚖️ ruling
+  pending · 👑🎮 boss on the sticks.
+- **No meter wrap in this shop** — every seat rides an already-paid subscription; shops that burn
+  metered credits can adopt the Deck `cursor-v2` wrap marks (♾️/💸/🚨💳).
+An episode reads as a timeline: 🩺 → 🌈👥👥 → 🟠🔨 → 🧪 → 🔵📝→⛔ → 🟠🔨 → 🧪 → 🚢 → 👑🏁 → 🟤.
+
 **THE COUNCIL SEATS & THE ONE REVIEW LAW.**
 
 **The one firm law — cross-vendor review, never a disguised mirror.** A real review comes from a
@@ -65,7 +83,9 @@ they are never a rule, only lore.
 the OpenAI seat, fixed by the boss's explicit preference, so he can decipher at a glance who is
 working on what and whom he is talking to. BUILDER and REVIEWER float between Jessie and James per
 mission (SPINE's three flips); the ORCHESTRATOR role never leaves the Cat's NAME — whoever hosts it
-signs 😼 whatever vendor hosts it. Other shops declare their own anchors on day one — mapping their
+signs 😼 whatever vendor hosts it. **The conductor's banner wears the ➤ baton after the host's
+dot** — *😼🟠➤* when Claude hosts the cat, *🟡➤* on the plain Deck — so the boss can spot who is
+conducting at a glance in any tier (boss law 2026-08-22, across the board; born on `cursor-v2`). Other shops declare their own anchors on day one — mapping their
 local arsenal in `PLAN-CARD.md` during onboarding (§8) — and hold them still, **inheriting the
 characters and their roles, not our vendor bindings.**
 
@@ -96,6 +116,24 @@ review pair: an INDICATOR of the adversarial bench, not a fixed vendor.
   *what he lost*, not only what he can still do.
 - **What never degrades:** the orchestrator (any brain), the episode structure, the mentor mandate,
   and the signing discipline — none ever depended on a vendor.
+
+**PERSISTENT SEATS — the crew remembers (transport upgrade, 2026-08-22).** Every vendor seat is
+wired into Claude Code as a **persistent MCP seat**, not an amnesia one-shot: the orchestrator
+starts a conversation with a seat (start tool → reply + session id) and can continue that exact
+conversation later (`*-reply` + the id) with full context intact. James can be briefed, build,
+and answer follow-ups as the SAME James all mission. Install/wiring/portability live in the deck
+repo's `mcp-seats/` folder (github.com/medick51o/andersons-dispatch-deck — wrappers, install commands, the
+codeword acceptance test) (Codex has MCP built in — one command; Grok and Gemini/Antigravity use
+the bundled stdlib wrapper scripts, which also bake in the headless croak-fixes: 60-min timeout +
+`always_approve` for build tickets). *(Ours: `wmw-codex` · `wmw-grok` · `wmw-gemini`, all
+✔ Connected on WMW.)* Two laws govern the transport, and both are old laws wearing new tools:
+- **Reviewers are ALWAYS fresh calls.** A new start-tool call remembers nothing — that blindness
+  is exactly what Butch and Cassidy require. Never brief a reviewer through a session that saw the
+  build (the anchoring law, mechanized).
+- **A reply-chain stays in its owning-seat lineage forever.** Continuing a session is the same seat
+  talking; it can never be dressed up as the independent reviewer of work its thread touched.
+- One-shot CLI dispatches (`grok -p`, `codex exec`, `agy -p`) remain legal fallback; the persistent
+  seats are the default transport.
 
 **The relationship clause (CREW-owned; a real structural rule, not flavor).** Jessie 🟠 is the
 boss's conversational seat, on missions and off them. **The orchestration layer never gates the

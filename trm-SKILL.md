@@ -94,3 +94,9 @@ TRM INVARIANTS (v2026-07-22 r2 · doctrine: SPINE.md)
 - Every crew message signs its color; the boss alone assigns missions
   and merges.
 ```
+
+## PERSISTENT SEATS (2026-08-22)
+The vendor seats are **persistent MCP conversations**, not amnesia one-shots — doctrine and the
+crew legend v4 live in CREW.md (the one owner); wiring and wrapper scripts in the Deck repo's
+`mcp-seats/` (github.com/medick51o/andersons-dispatch-deck). Reviewers are always fresh, blind
+calls; a reply-chained session never reviews its own lineage.

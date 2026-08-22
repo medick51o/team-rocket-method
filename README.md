@@ -69,6 +69,23 @@ Any character can wear any model — **these seats are strong defaults, not law.
 
 ---
 
+## The seats REMEMBER — persistent MCP transports (2026-08-22)
+
+The crew's vendor seats are no longer amnesia one-shots. Each CLI (Codex / Grok / Gemini) is
+registered into Claude Code as a **persistent MCP seat**: brief a seat, get a session id back,
+continue that exact conversation later with full context. Reviewers are still ALWAYS fresh calls
+(fresh = blind, which is what independent review requires); a reply-chained session stays in its
+owning-seat lineage forever. Wiring, wrapper scripts, and the acceptance test:
+[`mcp-seats/`](https://github.com/medick51o/andersons-dispatch-deck/tree/main/mcp-seats) in the
+Anderson's Dispatch Deck repo. Doctrine lives in [CREW.md](CREW.md).
+
+## The crew legend — v4 at a glance (full version in [CREW.md](CREW.md))
+
+*😼🟠➤* the conductor wears the **➤ baton** · 🔨 building · 📝 reviewing (🔴 is Butch's jersey,
+never an act) · ⛔ rejected/blocked/needs-boss · 🌈👥👥 council in session · 🚩 finding · 🧪 gates ·
+🩺 doctor-first · 🚢 shipped · 👑🏁 boss-validated · 🟤 quiet hold. An episode reads as a timeline:
+🩺 → 🌈👥👥 → 🟠🔨 → 🧪 → 🔵📝→⛔ → 🟠🔨 → 🧪 → 🚢 → 👑🏁 → 🟤
+
 ## The Council — the whole crew, one hard question
 
 When the stakes justify it, the boss can convene **the council**: the cat brings the whole crew in at once — **every reachable vendor, one per seat** — each giving an independent, *signed* read on the same question, each on a distinct lens. Four vendors, four sets of blind spots, so the council catches what any single seat would miss. The cat synthesizes best-of-breed, **names every disagreement**, caps the debate at two rounds, and hands you the verdict. It's the **special move** — adversarial review at full width — not the everyday default. **It never auto-fires:** a trivial ask stays a trivial ask (one seat, no token-eating dream team). *(Same engine move across the family: a plain panel in the [Dispatch Deck](https://github.com/medick51o/andersons-dispatch-deck), a full puppeteered set-piece in [Team Rocket Takes Over](https://github.com/medick51o/team-rocket-takes-over).)*
