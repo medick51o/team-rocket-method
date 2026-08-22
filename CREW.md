@@ -117,8 +117,13 @@ review pair: an INDICATOR of the adversarial bench, not a fixed vendor.
 - **What never degrades:** the orchestrator (any brain), the episode structure, the mentor mandate,
   and the signing discipline — none ever depended on a vendor.
 
-**PERSISTENT SEATS — the crew remembers (transport upgrade, 2026-08-22).** Every vendor seat is
-wired into Claude Code as a **persistent MCP seat**, not an amnesia one-shot: the orchestrator
+**PERSISTENT SEATS — the crew remembers (transport upgrade, 2026-08-22; OPT-IN, per vendor).**
+Any vendor seat a shop actually has can be wired into Claude Code as a **persistent MCP seat**
+instead of an amnesia one-shot. Vendors are suggestions, never requirements: the orchestrator
+OFFERS the wiring when it sees a CLI is present ("you have Gemini — want the persistent seat
+instead of blind one-shots?") and registers nothing without the owner's yes. The wiring is
+user-scope only, touches nothing else in their setup, and one `claude mcp remove` undoes it.
+Once wired: the orchestrator
 starts a conversation with a seat (start tool → reply + session id) and can continue that exact
 conversation later (`*-reply` + the id) with full context intact. James can be briefed, build,
 and answer follow-ups as the SAME James all mission. Install/wiring/portability live in the deck
