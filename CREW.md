@@ -1,6 +1,8 @@
 # CREW — what the Team Rocket Method ADDS on top of SPINE
 
-**Version line (machine-readable):** `TRM/CREW v1.1 (2026-07-21)`
+**Version line (machine-readable):** `TRM/CREW v1.2 (2026-08-22)`
+**v1.2 — PERSISTENT SEATS + LEGEND v4:** the seats block and crew legend below RENDER laws owned
+by SPINE v2.0 (THE TRANSPORT LAW · THE NOTATION v4.0) — SPINE is the owner; edit there first.
 **Depends on:** `spine >= 1.0`.
 **v1.1 — PORTABLE CASTING:** the seat column is now a *suggested* default, remapped per shop at
 onboarding (§1 + §8), so the crew fits ANY downloader's arsenal. Characters are roles; vendors are
@@ -42,7 +44,8 @@ codex = blue · **grok = black ⚫** · **Gemini = green 🟢** (the household-n
 character color then banner: *"🩷⚫ Cassidy (in grok) — two findings."* The banner ALWAYS rides beside
 the character so the boss knows the real vendor under the costume.
 
-**THE CREW LEGEND — v4 (boss-adopted 2026-08-22; the Deck's legend translated into crew colors).**
+**THE CREW LEGEND — v4 (boss-adopted 2026-08-22; the crew RENDERING of SPINE's THE NOTATION
+v4.0 — SPINE owns the marks; grammar here is character-first where the Deck is seat-first).**
 Seat first, act second. A line reads: *🩷⚫ Cassidy (in grok) 📝 two findings.*
 - **The conductor's ➤ baton:** the orchestrator's banner wears ➤ after the host's dot — *😼🟠➤*
   when Claude hosts the cat (the plain Deck renders it *🟡➤*). Spot the conductor at a glance, any tier.
@@ -130,8 +133,8 @@ and answer follow-ups as the SAME James all mission. Install/wiring/portability 
 repo's `mcp-seats/` folder (github.com/medick51o/andersons-dispatch-deck — wrappers, install commands, the
 codeword acceptance test) (Codex has MCP built in — one command; Grok and Gemini/Antigravity use
 the bundled stdlib wrapper scripts, which also bake in the headless croak-fixes: 60-min timeout +
-`always_approve` for build tickets). *(Ours: `wmw-codex` · `wmw-grok` · `wmw-gemini`, all
-✔ Connected on WMW.)* Two laws govern the transport, and both are old laws wearing new tools:
+`always_approve` for build tickets). *(Ours: `wmw-codex` · `wmw-grok` · `wmw-gemini` — verified once at install, 2026-08-22;
+the preflight re-checks every session, per SPINE's transport law #4.)* Two laws govern the transport, and both are old laws wearing new tools:
 - **Reviewers are ALWAYS fresh calls.** A new start-tool call remembers nothing — that blindness
   is exactly what Butch and Cassidy require. Never brief a reviewer through a session that saw the
   build (the anchoring law, mechanized).
