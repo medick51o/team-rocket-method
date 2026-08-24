@@ -4,7 +4,7 @@
 seats, adversarial cross-review, file-based shared memory, automated gates, and a human boss who
 rules every fork. The models argue. The boss decides.**
 
-By [Medick](https://github.com/medick51o). Conceived 2026-07-11. **PRIVATE — working concept.**
+By [Medick](https://github.com/medick51o). Conceived 2026-07-11. Running engine: **`spine v2.6`**.
 
 > *The name's a wink: an unnamed parody of a certain childhood cartoon's ever-scheming villain trio (the one with the pocket-sized monsters). We'll never print the show's name — if you know, you know.* 😏
 
@@ -54,6 +54,18 @@ What that buys you:
 - **Gates before "done"** — claims capped at evidence: *"gates pass,"* never *"it works."* The human is the final gate and the only one who merges.
 - **A mentor while it works** — the cat drops a one-line *why-this-route* at each real decision, so you get sharper at orchestration every session.
 
+### What the crew learned to do lately (`spine v2.6`)
+
+| | Feature | What it means at the table |
+|:--:|---|---|
+| 🔌 | **The seats remember** | Brief a seat once and continue that same conversation later. Reviewers stay blind on purpose — a fresh call is what independence requires. |
+| 🟣 | **A bench of 200+ models** | One CLI reaches a whole roster, so the cat can cast a seat in a model you don't hold a subscription for. |
+| 💳 | **Nobody spends without the boss** | A seat that *can* bill needs a recorded allowance first — a bound, with an expiry. No allowance, no spend. Free seats never ask. |
+| 📊 | **The meter is read, not guessed** | Usage comes from each vendor's own billing endpoint. *"That's cheap"* is **"it works" wearing a hat.** |
+| 🛡️ | **A read-only seat is really read-only** | Three genuine escape routes found and closed — including a read-only seat that escalated by getting *another seat* to do its writing. |
+| ⚖️ | **The law was swept for contradictions** | A four-vendor blind council re-read the whole engine and found nine places two rules disagreed. All nine repaired. |
+| 📜 | **History kept, not carried** | The war stories behind the laws moved to their own file, so they still exist without being re-read on every summon. |
+
 ## Why this model, not that one
 
 The cat routes by **strength, not loyalty.** The default arsenal:
@@ -91,7 +103,7 @@ never an act) · ⛔ rejected/blocked/needs-boss · 🌈👥👥 council in sess
 
 ## The Council — the whole crew, one hard question
 
-When the stakes justify it, the boss can convene **the council**: the cat brings the whole crew in at once — **every reachable vendor, one per seat** — each giving an independent, *signed* read on the same question, each on a distinct lens. Four vendors, four sets of blind spots, so the council catches what any single seat would miss. The cat synthesizes best-of-breed, **names every disagreement**, caps the debate at two rounds, and hands you the verdict. It's the **special move** — adversarial review at full width — not the everyday default. **It never auto-fires:** a trivial ask stays a trivial ask (one seat, no token-eating dream team). *(Same engine move across the family: a plain panel in the [Dispatch Deck](https://github.com/medick51o/andersons-dispatch-deck), a full puppeteered set-piece in [Team Rocket Takes Over](https://github.com/medick51o/team-rocket-takes-over).)*
+When the stakes justify it, the boss can convene **the council**: the cat brings the crew in at once — **a bounded set of eligible seats, one vendor each** (the cap is set before it runs, and a seat that would bill needs the boss's allowance first) — each giving an independent, *signed* read on the same question, each on a distinct lens. Four vendors, four sets of blind spots, so the council catches what any single seat would miss. The cat synthesizes best-of-breed, **names every disagreement**, caps the debate at two rounds, and hands you the verdict. It's the **special move** — adversarial review at full width — not the everyday default. **It never auto-fires:** a trivial ask stays a trivial ask (one seat, no token-eating dream team). *(Same engine move across the family: a plain panel in the [Dispatch Deck](https://github.com/medick51o/andersons-dispatch-deck), a full puppeteered set-piece in [Team Rocket Takes Over](https://github.com/medick51o/team-rocket-takes-over).)*
 
 ---
 
