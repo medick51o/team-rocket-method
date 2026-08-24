@@ -16,8 +16,8 @@ order, proves the versions, and reports ready in voice.
 ## DEPENDENCIES (versioned — enforceable inheritance)
 ```
 DEPENDS:
-  SPINE.md   >= 2.0     (the engine — the whole method)
-  CREW.md    >= 1.2     (the crew — casting + PORTABLE CASTING, mentor mandate, episode-as-unit, provenance)
+  SPINE.md   >= 2.4     (the engine — the whole method)
+  CREW.md    >= 1.3     (the crew — casting + PORTABLE CASTING, mentor mandate, episode-as-unit, provenance)
   SHOW.md    >= 1.0     (the show — premise, chemistry, Wobbuffet, vibe, the WORK/STORY FIREWALL)
 ```
 Load in order (SPINE → CREW → SHOW); each declares the floor beneath it. **Verify all three version

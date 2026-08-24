@@ -18,11 +18,11 @@ declared SOLO mode, not a costume.
 ## DEPENDENCIES (versioned — enforceable inheritance)
 ```
 DEPENDS:
-  SPINE.md   >= 2.0     (the method engine — everything the crew DOES)
-  CREW.md    >= 1.2     (the cast + casting law + mentor mandate + PORTABLE CASTING — what TRM ADDS)
+  SPINE.md   >= 2.4     (the method engine — everything the crew DOES)
+  CREW.md    >= 1.3     (the cast + casting law + mentor mandate + PORTABLE CASTING — what TRM ADDS)
 ```
 This tier loads **SPINE + CREW** — NOT SHOW (that's the `team-rocket-takes-over` branch). CREW
-declares `spine >= 2.0`; verify BOTH version lines satisfy the floors before running.
+declares `spine >= 2.4`; verify BOTH version lines satisfy the floors before running.
 
 ## Steps
 
