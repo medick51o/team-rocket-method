@@ -16,9 +16,9 @@ order, proves the versions, and reports ready in voice.
 ## DEPENDENCIES (versioned — enforceable inheritance)
 ```
 DEPENDS:
-  SPINE.md   >= 2.4     (the engine — the whole method)
-  CREW.md    >= 1.3     (the crew — casting + PORTABLE CASTING, mentor mandate, episode-as-unit, provenance)
-  SHOW.md    >= 1.0     (the show — premise, chemistry, Wobbuffet, vibe, the WORK/STORY FIREWALL)
+  SPINE.md   >= 2.9     (the engine — the whole method)
+  CREW.md    >= 1.5     (the crew — casting + PORTABLE CASTING, mentor mandate, episode-as-unit, provenance)
+  SHOW.md    >= 1.2     (the show — premise, chemistry, Wobbuffet, vibe, the WORK/STORY FIREWALL)
 ```
 Load in order (SPINE → CREW → SHOW); each declares the floor beneath it. **Verify all three version
 lines against the floors before running.** If any is missing or stale, HALT and tell the boss — do
@@ -44,7 +44,7 @@ the exact SPINE + CREW run must remain underneath, unchanged.* Where TRTO and th
 
 ## On invocation
 1. **Load SPINE + CREW + SHOW in order**, verify each version against DEPENDS. **Do NOT print the
-   receipt yet** — it prints LAST, once reachability is known (BL5).
+   receipt yet** — it prints LAST, once reachability is known.
 2. **Initialize the crew** exactly as the `trm` launcher does, in its corrected order: plan card /
    posture (a DECLARATION) from SPINE Part VI → the **reachability & effective-model preflight FIRST**
    (SPINE Part VI — *Reachability & effective-model preflight*, NOT Part IV) → the cast-map populated
@@ -78,9 +78,3 @@ TRM INVARIANTS (v2026-07-22 r2 · doctrine: SPINE.md)
 - Every crew message signs its color; the boss alone assigns missions
   and merges.
 ```
-
-## PERSISTENT SEATS (2026-08-22)
-The vendor seats are **persistent MCP conversations**, not amnesia one-shots — the laws are owned by **SPINE v2.0**
-(THE TRANSPORT LAW · THE NOTATION v4.0) and rendered for the crew in CREW.md v1.2; wiring and wrapper scripts in the Deck repo's
-`mcp-seats/` (github.com/medick51o/andersons-dispatch-deck). Reviewers are always fresh, blind
-calls; a reply-chained session never reviews its own lineage.

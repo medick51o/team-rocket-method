@@ -18,26 +18,25 @@ declared SOLO mode, not a costume.
 ## DEPENDENCIES (versioned — enforceable inheritance)
 ```
 DEPENDS:
-  SPINE.md   >= 2.4     (the method engine — everything the crew DOES)
-  CREW.md    >= 1.3     (the cast + casting law + mentor mandate + PORTABLE CASTING — what TRM ADDS)
+  SPINE.md   >= 2.9     (the method engine — everything the crew DOES)
+  CREW.md    >= 1.5     (the cast + casting law + mentor mandate + PORTABLE CASTING — what TRM ADDS)
 ```
 This tier loads **SPINE + CREW** — NOT SHOW (that's the `team-rocket-takes-over` branch). CREW
-declares `spine >= 2.4`; verify BOTH version lines satisfy the floors before running.
+declares its own SPINE floor; verify BOTH version lines satisfy the floors before running.
 
 ## Steps
 
-1. **Find the law, in this order:** `SPINE.md` and `CREW.md` in the project (root first), then the
-   copies installed beside this skill file, then ask the boss to paste them. If both project and
-   skill-side copies exist, the project's win; the version line in each file settles staleness.
+1. **Find the law:** `SPINE.md` and `CREW.md` installed beside this skill file (the single source on
+   this box). A project-root copy is honored ONLY if its version line is strictly newer (a deliberate
+   pin); otherwise the skill-side copy wins and the stale project copy is reported. Nothing readable →
+   ask the boss to paste them.
    **Verify each dep's version against DEPENDS above.** If a file is missing or its version is below
    the floor, HALT and tell the boss — do not run the method from memory. The documents are
    authoritative; where this skill and those documents disagree, the documents win.
-2. **Load or create the plan card — a DECLARATION, not detection** (mechanic owned by SPINE Part VI).
-   If `PLAN-CARD.md` exists at the project root, load it and state the posture from SPINE's band map.
-   If not, run the three-question first-run interview (primary vendor + tier band · support vendor +
-   tier band · headroom) and save the dated card to `PLAN-CARD.md` (print it for the boss to save if
-   you cannot write files). This records what the boss *declares* he pays for; it does NOT tell you
-   what is reachable — that is step 3.
+2. **Load the plan card if there is one — a DECLARATION, not detection.** If `PLAN-CARD.md` exists at
+   the project root, load it and state the declared posture and casting. If not, do NOT interview the
+   boss: step 4's cast-map confirmation creates the card. A declaration never tells you what is
+   reachable — that is step 3.
 3. **Reachability & effective-model preflight — FIRST, before any cast** (SPINE Part VI —
    *Reachability & effective-model preflight*, NOT Part IV). Detect which seats actually answer and the
    effective model/lineage behind each host. State plainly, one line each, which is true in THIS
@@ -94,9 +93,3 @@ TRM INVARIANTS (v2026-07-22 r2 · doctrine: SPINE.md)
 - Every crew message signs its color; the boss alone assigns missions
   and merges.
 ```
-
-## PERSISTENT SEATS (2026-08-22)
-The vendor seats are **persistent MCP conversations**, not amnesia one-shots — the laws are owned by **SPINE v2.0**
-(THE TRANSPORT LAW · THE NOTATION v4.0) and rendered for the crew in CREW.md v1.2; wiring and wrapper scripts in the Deck repo's
-`mcp-seats/` (github.com/medick51o/andersons-dispatch-deck). Reviewers are always fresh, blind
-calls; a reply-chained session never reviews its own lineage.

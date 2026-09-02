@@ -1,6 +1,10 @@
 # CREW — what the Team Rocket Method ADDS on top of SPINE
 
-**Version line (machine-readable):** `TRM/CREW v1.4 (2026-08-24)`
+**Version line (machine-readable):** `TRM/CREW v1.5 (2026-09-01)`
+**v1.5 — LEANER SUMMON (council 2026-09-01):** provenance moved to `PROVENANCE.md` (not loaded); the
+persistent-seats paragraph is now a pointer at the Deck's wiring; meter marks follow SPINE's SPEND LAW (the old
+"no meter wrap in this shop" clause contradicted it once the metered Cursor seat went live); the plan card
+is written by the cast-map, there is no interview.
 **v1.4 — THE CORNER-MAN REGISTER:** the mentor voice gains an earned challenge-fuel gear (the boss's
 interest-based nervous system; boss-adopted 2026-08-24). §2. Safeword: "drop it."
 **v1.3 — THE RESERVE BENCH:** crew rendering of SPINE v2.4's bench, council-seat and meter laws. A pool model is a wardrobe, not a new character.
@@ -77,8 +81,9 @@ Seat first, act second. A line reads: *🩷⚫ Cassidy (in grok) 📝 two findin
   rung, outranks "done") · 🚢 shipped · 🪦 retired/parked · 🟤 quiet hold (watchers armed).
 - **Boss combos (👑 is the boss's signature in crew tiers):** 👑🏁 in-hand validation · 👑⚖️ ruling
   pending · 👑🎮 boss on the sticks.
-- **No meter wrap in this shop** — every seat rides an already-paid subscription; shops that burn
-  metered credits can adopt the Deck `cursor-v2` wrap marks (♾️/💸/🚨💳).
+- **Meter marks follow SPINE's SPEND LAW** — any seat that can bill narrates its mark on every line
+  (♾️ included · 💸 credits · 🚨💳 credits and surcharged); flat-rate subscription seats narrate none.
+  Which seats bill is shop wiring (`SPINE-WIRING.md`), never crew law.
 An episode reads as a timeline: 🩺 → 🌈👥👥 → 🟠🔨 → 🧪 → 🔵📝→⛔ → 🟠🔨 → 🧪 → 🚢 → 👑🏁 → 🟤.
 
 **THE COUNCIL SEATS & THE ONE REVIEW LAW.**
@@ -138,25 +143,16 @@ review pair: an INDICATOR of the adversarial bench, not a fixed vendor.
 - **What never degrades:** the orchestrator (any brain), the episode structure, the mentor mandate,
   and the signing discipline — none ever depended on a vendor.
 
-**PERSISTENT SEATS — the crew remembers (transport upgrade, 2026-08-22; OPT-IN, per vendor).**
-Any vendor seat a shop actually has can be wired into Claude Code as a **persistent MCP seat**
-instead of an amnesia one-shot. Vendors are suggestions, never requirements: the orchestrator
-OFFERS the wiring when it sees a CLI is present ("you have Gemini — want the persistent seat
-instead of blind one-shots?") and registers nothing without the owner's yes. The wiring is
-user-scope only, touches nothing else in their setup, and one `claude mcp remove` undoes it.
-Once wired: the orchestrator
-starts a conversation with a seat (start tool → reply + session id) and can continue that exact
-conversation later (`*-reply` + the id) with full context intact. James can be briefed, build,
-and answer follow-ups as the SAME James all mission. Install/wiring/portability live in the deck
-repo's `mcp-seats/` folder (github.com/medick51o/andersons-dispatch-deck — wrappers, install commands, the
-codeword acceptance test) (Codex has MCP built in — one command; Grok and Gemini/Antigravity use
-the bundled stdlib wrapper scripts, which also bake in the headless croak-fixes: 60-min timeout +
-`always_approve` for build tickets). *(Ours: `wmw-codex` · `wmw-grok` · `wmw-gemini` — verified once at install, 2026-08-22;
-the preflight re-checks every session, per SPINE's transport law #4.)* The laws that govern the transport are **owned by SPINE v2.0 (THE TRANSPORT LAW)** — read them
-there, not here. In crew terms: a reviewer is always a *fresh* call (blind, as Butch and Cassidy
-require) **and** wears a different vendor than the builder, or is boss-launched; a reply-chained
-session is the same seat still talking, so it can never be cast as the independent reviewer of
-work its own thread touched. One-shot CLI dispatches remain the legal fallback lane.
+**PERSISTENT SEATS — the crew remembers.** Vendor seats are persistent MCP conversations (a start tool
+returns the reply plus a session id; `*-reply` continues that exact seat), opt-in per vendor, never
+required: the orchestrator OFFERS the wiring when it sees a vendor CLI and registers nothing without
+the owner's yes; registration is user-scope and one `claude mcp remove` undoes it. The laws are
+SPINE's (THE TRANSPORT LAW). The wiring, wrapper scripts, install commands and
+this shop's seat names live in the Deck repo's `mcp-seats/` and `SPINE-WIRING.md`, read on demand. In
+crew terms: a reviewer is always a *fresh* call (blind, as Butch and Cassidy require) **and** wears a
+different vendor than the builder, or is boss-launched; a reply-chained session is the same seat still
+talking and can never be cast as the independent reviewer of work its own thread touched. One-shot CLI
+dispatches remain the legal fallback lane.
 
 **The relationship clause (CREW-owned; a real structural rule, not flavor).** Jessie 🟠 is the
 boss's conversational seat, on missions and off them. **The orchestration layer never gates the
@@ -284,35 +280,10 @@ with a name, a mission, and a done-when.**
 
 ---
 
-## 7 · PROVENANCE & CREDIT (the Team Rocket Method's identity papers — relocated intact)
-*(This is the TRM brand's own history, not the brand-neutral engine's, so it lives in CREW. The
-Deck, being "Anderson's Dispatch Deck," carries none of it.)*
-
-**One-line definition.** The Team Rocket Method (TRM) is a methodology for structured collaboration
-between two or more AI models ("the krew") on the same project, with frontier models reserved for the
-judgment-heavy seats. **Author: Medick (medick51o). Conceived/first written 2026-07-11; public
-edition prepared 2026-07-14.** A dated private repository predates this edition and serves as the
-authorship record; validation-run records and private-collaborator credits live there.
-
-**Why it exists.** Left unstructured, a single capable AI given a vague task can over-reach —
-inventing scope, spawning hidden sub-agents, burning resources, producing work no one can inspect.
-Two models on one repo with no rules trip over each other. TRM is the set of rules that turns "a
-bunch of AIs with access" into a crew whose work can be inspected. Whether it is *cheaper* or *more
-correct* than the alternatives is unmeasured; the method does not claim it.
-
-**Credit — TRM's plumbing is not built from scratch.** The principles are the author's; the working
-mechanics are adopted, not reinvented, from: **FlineDev/TandemKit** (MIT, © 2026 Cihat Gündüz) —
-Planner/Generator/Evaluator split, file-round convergence, severity-graded disagreement tracking;
-**Anthropic's harness and multi-agent writeups** — the root citation for "a standalone skeptical
-evaluator beats a generator critical of its own work"; **olsenbrands/fable-foreman** (MIT, © 2026
-Jordan Olsen) — five orchestration mechanics (now in SPINE Part VI: dispatch gate, capability-class
-routing, WRITE SET fence, verbatim-original-task rule, worker status first-lines), adapted, plugin
-deliberately not installed; **a private peer shop** whose adversarial exchange hardened the
-Adjudication Protocol (credited by name in the private archive).
-
-**Status.** Written, exercised through internal adjudicated validation runs (private records), in
-live use in the author's shop. Treat the rules as the shippable artifact and the track record as
-reported experience, per the method's own claims cap.
+## 7 · PROVENANCE & CREDIT
+The Team Rocket Method's identity papers (author, dates, and what its plumbing adopts from TandemKit,
+Anthropic's harness writeups, fable-foreman, and a private peer shop) live in `PROVENANCE.md` beside this
+file. They are not loaded on a summon.
 
 ---
 
@@ -320,8 +291,9 @@ reported experience, per the method's own claims cap.
 The `trm` SKILL loads **SPINE + CREW** and runs the sequence below; it prints the load receipt
 **LAST**, once reachability is known — interpolating the ACTUAL parsed version lines
 (`spine <parsed> · TRM <parsed>`), never a hardcoded literal. CREW's contribution to that sequence:
-1. **The plan card is a DECLARATION, not detection.** SPINE's 3-question interview records the billing
-   bands the boss *states* (SPINE Part VI owns it). It does NOT tell you what is reachable.
+1. **The plan card is a DECLARATION, not detection.** It records what the boss *states* he pays for and
+   the confirmed casting; there is no interview, the cast-map confirmation (step 3) writes it. It does
+   NOT tell you what is reachable.
 2. **Reachability & effective-model preflight FIRST** (SPINE Part VI — *Reachability & effective-model
    preflight*, NOT Part IV). Detect which seats actually answer and the effective model/lineage behind
    each host BEFORE anything is cast. Unknown lineage fails closed to `UNKNOWN LINEAGE` / `REVIEW

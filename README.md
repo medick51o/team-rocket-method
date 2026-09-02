@@ -4,7 +4,7 @@
 seats, adversarial cross-review, file-based shared memory, automated gates, and a human boss who
 rules every fork. The models argue. The boss decides.**
 
-By [Medick](https://github.com/medick51o). Conceived 2026-07-11. Running engine: **`spine v2.6`**.
+By [Medick](https://github.com/medick51o). Conceived 2026-07-11. Running engine: **`spine v2.9`**.
 
 > *The name's a wink: an unnamed parody of a certain childhood cartoon's ever-scheming villain trio (the one with the pocket-sized monsters). We'll never print the show's name — if you know, you know.* 😏
 
@@ -54,7 +54,7 @@ What that buys you:
 - **Gates before "done"** — claims capped at evidence: *"gates pass,"* never *"it works."* The human is the final gate and the only one who merges.
 - **A mentor while it works** — the cat drops a one-line *why-this-route* at each real decision, so you get sharper at orchestration every session.
 
-### What the crew learned to do lately (`spine v2.6`)
+### What the crew learned to do lately (`spine v2.9`)
 
 | | Feature | What it means at the table |
 |:--:|---|---|
